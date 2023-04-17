@@ -1,0 +1,9 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+df2f8763-573a-bdb2-8d95-e056333ff2d2 ULANCore // SRC=HashHandle.cpp MJ= MN=
+#typev  HashHandle_cpp39 11 "%0Hash_Final(m_pHashCtx2nd)" //   LEVEL=INFO FUNC=CHashObject::~CHashObject
+{
+}
+#typev  HashHandle_cpp33 10 "%0Hash_Final(m_pHashCtx)" //   LEVEL=INFO FUNC=CHashObject::~CHashObject
+{
+}

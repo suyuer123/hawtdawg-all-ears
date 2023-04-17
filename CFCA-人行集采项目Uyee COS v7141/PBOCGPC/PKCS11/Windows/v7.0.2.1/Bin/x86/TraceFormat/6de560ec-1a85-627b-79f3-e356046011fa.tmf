@@ -1,0 +1,58 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+6de560ec-1a85-627b-79f3-e356046011fa UyeePKCS11 // SRC=Interface.cpp MJ= MN=
+#typev  Interface_cpp1706 26 "%0dwSeedDataSize is %10!d!." //   LEVEL=INFO FUNC=TokenHandle::SetRandomSeed
+{
+dwSeedDataSize, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  Interface_cpp852 22 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=GetPriKeyInfoFromAttributeList
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  Interface_cpp599 21 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=GetPubKeyInfoFromAttributeList
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  Interface_cpp305 20 "%0pTemplate[ulTempCount].type is 0x%10!08x!" //   LEVEL=INFO FUNC=GetKeyInfoFromAttributeList
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+#typev  Interface_cpp302 19 "%0ulCount is %10!d!" //   LEVEL=INFO FUNC=GetKeyInfoFromAttributeList
+{
+ulCount, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  Interface_cpp193 14 "%0CKA_SM2_Y" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}
+#typev  Interface_cpp189 13 "%0CKA_SM2_X" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}
+#typev  Interface_cpp185 12 "%0CKA_MODULUS_BITS" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}
+#typev  Interface_cpp177 10 "%0CKA_PUBLIC_EXPONENT" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}
+#typev  Interface_cpp181 11 "%0CKA_MODULUS" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}
+#typev  Interface_cpp212 18 "%0CKA_VALUE" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}
+#typev  Interface_cpp208 17 "%0CKA_SERIAL_NUMBER" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}
+#typev  Interface_cpp204 16 "%0CKA_ISSUER" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}
+#typev  Interface_cpp197 15 "%0CKA_SUBJECT" //   LEVEL=INFO FUNC=CheckNeedExportDataFromAttribute
+{
+}

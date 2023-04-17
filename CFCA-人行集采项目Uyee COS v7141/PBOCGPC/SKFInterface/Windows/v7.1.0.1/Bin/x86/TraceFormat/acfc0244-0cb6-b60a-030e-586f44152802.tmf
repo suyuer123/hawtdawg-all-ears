@@ -1,0 +1,9 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+acfc0244-0cb6-b60a-030e-586f44152802 UtapSKF // SRC=dllmain.cpp MJ= MN=
+#typev  dllmain_cpp34 11 "%0PROCESS DETACH" //   LEVEL=INFO FUNC=DllMain
+{
+}
+#typev  dllmain_cpp24 10 "%0PROCESS ATTACH" //   LEVEL=INFO FUNC=DllMain
+{
+}

@@ -1,0 +1,8 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+03879b00-0c9b-2804-bf30-cd30db9fd2a7 ULANCore // SRC=DeviceContext.cpp MJ= MN=
+#typev  DeviceContext_cpp539 10 "%0%10!s! - %11!s!" //   LEVEL=INFO FUNC=CDeviceContext::TraceInfo
+{
+__FUNCTIONW__, ItemWString -- 10
+tszTraceInfo, ItemWString -- 11
+}

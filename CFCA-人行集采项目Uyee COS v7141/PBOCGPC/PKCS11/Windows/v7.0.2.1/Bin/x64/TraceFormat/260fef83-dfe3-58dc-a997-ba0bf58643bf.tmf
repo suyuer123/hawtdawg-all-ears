@@ -1,0 +1,53 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+260fef83-dfe3-58dc-a997-ba0bf58643bf UyeePKCS11 // SRC=PasswordEdit.cpp MJ= MN=
+#typev  PasswordEdit_cpp17 10 "%0Shift %10!s!, CapsLock %11!s!" //   LEVEL=INFO FUNC=GetCharFromKey
+{
+bShiftState ? L'ON' : L'OFF', ItemWString -- 10
+bCapsLockState ? L'ON' : L'OFF', ItemWString -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  PasswordEdit_cpp318 22 "%0Pass-by key: 0x%10!02x!" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+((LPKBDLLHOOKSTRUCT)lParam)->vkCode, ItemLong -- 10
+}
+#typev  PasswordEdit_cpp303 21 "%0WM_KEYUP event" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+}
+#typev  PasswordEdit_cpp243 14 "%0Pass-by key: 0x%10!02x!" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+((LPKBDLLHOOKSTRUCT)lParam)->vkCode, ItemLong -- 10
+}
+#typev  PasswordEdit_cpp286 20 "%0Illegal key: 0x%10!02x!" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+((LPKBDLLHOOKSTRUCT)lParam)->vkCode, ItemLong -- 10
+}
+#typev  PasswordEdit_cpp282 19 "%0Password length: %10!d!" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+(int)pPasswordEditObject->m_stPasswordDataBlob.cbSize, ItemLong -- 10
+}
+#typev  PasswordEdit_cpp277 18 "%0pPasswordEditObject->m_stPasswordDataBlob.pBlobData[%10!d!]: %11!c!" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+nPasswordLength, ItemLong -- 10
+GetCharFromKey(((LPKBDLLHOOKSTRUCT)lParam)->vkCode), ItemChar -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  PasswordEdit_cpp265 17 "%0Accepted key: 0x%10!02x!" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+((LPKBDLLHOOKSTRUCT)lParam)->vkCode, ItemLong -- 10
+}
+#typev  PasswordEdit_cpp257 16 "%0Password length: %10!d!" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+(int)pPasswordEditObject->m_stPasswordDataBlob.cbSize, ItemLong -- 10
+}
+#typev  PasswordEdit_cpp248 15 "%0Backspace key" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+}
+#typev  PasswordEdit_cpp229 13 "%0WM_KEYDOWN event" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+}
+#typev  PasswordEdit_cpp222 12 "%0LowLevelKeyboardProc" //   LEVEL=INFO FUNC=CPasswordEdit::LowLevelKeyboardProc
+{
+}

@@ -1,0 +1,8 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+33161777-c408-36e2-27d3-42648dda3b96 ULANCore // SRC=AsymKeyObject.cpp MJ= MN=
+#typev  AsymKeyObject_cpp310 10 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CRSADevObj::SignDigest
+{
+__FUNCTIONW__, ItemWString -- 10
+_T('PKCS#1 Padding'), ItemWString -- 11
+}

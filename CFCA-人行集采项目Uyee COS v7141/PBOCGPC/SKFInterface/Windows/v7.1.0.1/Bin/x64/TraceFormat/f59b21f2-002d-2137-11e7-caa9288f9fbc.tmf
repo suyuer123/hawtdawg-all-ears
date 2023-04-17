@@ -1,0 +1,15 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+f59b21f2-002d-2137-11e7-caa9288f9fbc UtapSKF // SRC=ContainerObject.cpp MJ= MN=
+#typev  ContainerObject_cpp280 11 "%0ulBitsLen %10!d!, m_bSingleCert %11!d!" //   LEVEL=VERBOSE FUNC=CContainerObject::GenerateKeyPair
+{
+ulBitsLen, ItemLong -- 10
+m_bSingleCert, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+#typev  ContainerObject_cpp152 10 "%0bSignFlag %10!d!, byKeySpec %11!d!" //   LEVEL=VERBOSE FUNC=CContainerObject::ImportCertificate
+{
+bSignFlag, ItemLong -- 10
+byKeySpec, ItemLong -- 11
+}

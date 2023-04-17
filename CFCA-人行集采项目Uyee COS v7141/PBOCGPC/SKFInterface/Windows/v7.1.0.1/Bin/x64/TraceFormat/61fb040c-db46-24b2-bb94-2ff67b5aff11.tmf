@@ -1,0 +1,15 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+61fb040c-db46-24b2-bb94-2ff67b5aff11 ULANComm // SRC=ULANMassStorage.cpp MJ= MN=
+#typev  ULANMassStorage_cpp28 10 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanDriverManager::Create
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Constructor', ItemWString -- 11
+}
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+#typev  ULANMassStorage_cpp35 11 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanMassStorage::`scalar deleting destructor'
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Destructor', ItemWString -- 11
+}

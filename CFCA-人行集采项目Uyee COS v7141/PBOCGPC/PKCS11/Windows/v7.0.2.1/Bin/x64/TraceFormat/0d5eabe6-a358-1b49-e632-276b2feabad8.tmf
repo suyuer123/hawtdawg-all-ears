@@ -1,0 +1,15 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+0d5eabe6-a358-1b49-e632-276b2feabad8 UyeePKCS11 // SRC=OperationConfirmDlg.cpp MJ= MN=
+#typev  OperationConfirmDlg_cpp178 10 "%0Check PIN return: 0x%10!08x!" //   LEVEL=INFO FUNC=COperationConfirmDlg::ConfirmWorkingThread
+{
+hResult, ItemLong -- 10
+}
+#typev  OperationConfirmDlg_cpp188 11 "%0Modify PIN return: 0x%10!08x!" //   LEVEL=INFO FUNC=COperationConfirmDlg::ConfirmWorkingThread
+{
+hResult, ItemLong -- 10
+}
+#typev  OperationConfirmDlg_cpp198 12 "%0Unlock PIN return: 0x%10!08x!" //   LEVEL=INFO FUNC=COperationConfirmDlg::ConfirmWorkingThread
+{
+hResult, ItemLong -- 10
+}

@@ -1,0 +1,58 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+3107e6f8-093a-8732-5dc6-0219fe0b43c9 UyeePKCS11 // SRC=FunctionInterface.cpp MJ= MN=
+#typev  FunctionInterface_cpp163 10 "%0Unsupport attribute type: 0x%10!08X!" //   LEVEL=INFO FUNC=GetAttributeValueFromAttributeList
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  FunctionInterface_cpp1230 19 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=GetSymKeyAttribute
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  FunctionInterface_cpp1180 18 "%0Attribute type not support: pTemplate[%10!d!].pValue" //   LEVEL=INFO FUNC=GetCertificateAttribute
+{
+ulTempCount, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  FunctionInterface_cpp1025 17 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=GetCertificateAttribute
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  FunctionInterface_cpp847 16 "%0ulRSABitsLength is %10!d!" //   LEVEL=INFO FUNC=GetPubkeyAttribute
+{
+ulRSABitsLength, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  FunctionInterface_cpp616 15 "%0pTemplate[ulTempCount].ulValueLen is %10!ld!, pTemplate[ulTempCount].pValue is %11!s!" //   LEVEL=INFO FUNC=GetPubkeyAttribute
+{
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 10
+pTemplate[ulTempCount].pValue == NULL ? ('NULL') : ('Not NULL'), ItemString -- 11
+}
+#typev  FunctionInterface_cpp615 14 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=GetPubkeyAttribute
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+#typev  FunctionInterface_cpp611 13 "%0ulCount is %10!d!" //   LEVEL=INFO FUNC=GetPubkeyAttribute
+{
+ulCount, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  FunctionInterface_cpp524 12 "%0ulRSABitsLength is %10!d!" //   LEVEL=INFO FUNC=GetPrikeyAttribute
+{
+ulRSABitsLength, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  FunctionInterface_cpp236 11 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=GetPrikeyAttribute
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}

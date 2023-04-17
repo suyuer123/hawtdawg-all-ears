@@ -1,0 +1,13 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+c3d6738d-4790-ca81-8eba-9f74f7dea75b ULANComm // SRC=ULANHID.cpp MJ= MN=
+#typev  ULANHID_cpp42 11 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanHID::`scalar deleting destructor'
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Destructor', ItemWString -- 11
+}
+#typev  ULANHID_cpp32 10 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanHID::CUlanHID
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Constructor', ItemWString -- 11
+}

@@ -1,0 +1,41 @@
+{  
+    "manifest_version": 3,
+    "name" : "CFCA SecEditCtl.GZCB.PERS Extension",
+    "version" : "3.2.0.1",
+    "description" : "CFCA Secure Edit Control Extension",
+    "author": "CFCA",
+    "minimum_chrome_version" : "88",
+
+    "background": {
+      "service_worker": "eventPage.js"
+    },
+   
+    "content_scripts": [
+      {
+        "matches": ["https://*.gzcb.com.cn/*","http://perbank-app001.prd.gzbtest.hx1/*","http://perbank-app001.prd.gzbtest.hx2/*","http://perbank-app.prd.gzbtest.hx3/*","http://perbank-app001.prd.gzbtest.hx4/*"],
+        "js": ["content.js"]
+      }
+    ],
+   
+    "action": {
+        "default_icon": { 
+         "16": "icon-16.png",
+         "48": "icon-48.png",
+        "128": "icon-128.png"
+        }
+    },
+	
+    "icons": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    },
+
+    "permissions": [
+        "nativeMessaging"
+    ],
+	
+    "externally_connectable": {
+      "matches": ["https://*.gzcb.com.cn/*","http://perbank-app001.prd.gzbtest.hx1/*","http://perbank-app001.prd.gzbtest.hx2/*","http://perbank-app.prd.gzbtest.hx3/*","http://perbank-app001.prd.gzbtest.hx4/*"]
+	}
+}

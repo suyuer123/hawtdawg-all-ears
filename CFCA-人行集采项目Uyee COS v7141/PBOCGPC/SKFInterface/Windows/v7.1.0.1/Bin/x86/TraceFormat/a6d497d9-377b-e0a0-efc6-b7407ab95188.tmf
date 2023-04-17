@@ -1,0 +1,15 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+a6d497d9-377b-e0a0-efc6-b7407ab95188 UtapSKF // SRC=MonitorThreadDlg.cpp MJ= MN=
+#typev  MonitorThreadDlg_cpp211 12 "%0pwszDevName is %10!s!" //   LEVEL=INFO FUNC=GetVidAndPidStr
+{
+pwszDevName, ItemWString -- 10
+}
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+#typev  MonitorThreadDlg_cpp106 10 "%0Device arrival complete!" //   LEVEL=INFO FUNC=CMonitorThreadDlg::OnDeviceChange
+{
+}
+#typev  MonitorThreadDlg_cpp123 11 "%0Device remove complete!" //   LEVEL=INFO FUNC=CMonitorThreadDlg::OnDeviceChange
+{
+}

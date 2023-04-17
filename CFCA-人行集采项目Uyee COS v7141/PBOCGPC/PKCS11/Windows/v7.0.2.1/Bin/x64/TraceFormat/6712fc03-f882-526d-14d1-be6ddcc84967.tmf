@@ -1,0 +1,106 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+6712fc03-f882-526d-14d1-be6ddcc84967 UyeePKCS11 // SRC=UyeePKCS11.cpp MJ= MN=
+#typev  UyeePKCS11_cpp1457 25 "%0hObject is %10!08x!, hSession is %11!08X!" //   LEVEL=INFO FUNC=C_SetAttributeValue
+{
+hObject, ItemLong -- 10
+hSession, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp726 18 "%0slotID is %10!d!, m_vtrSlotSet.size() is %11!d!" //   LEVEL=INFO FUNC=C_GetMechanismInfo
+{
+slotID, ItemLong -- 10
+g_pDeviceHandle->m_vtrSlotSet.size(), ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp690 17 "%0slotID is %10!d!, m_vtrSlotSet.size() is %11!d!" //   LEVEL=INFO FUNC=C_GetMechanismList
+{
+slotID, ItemLong -- 10
+g_pDeviceHandle->m_vtrSlotSet.size(), ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp1394 24 "%0hObject is %10!08x!, hSession is %11!08X!" //   LEVEL=INFO FUNC=C_GetAttributeValue
+{
+hObject, ItemLong -- 10
+hSession, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp1507 26 "%0hSession is %10!08X!" //   LEVEL=INFO FUNC=C_FindObjectsInit
+{
+hSession, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp456 16 "%0pszTokenName is %10!s!" //   LEVEL=INFO FUNC=C_GetTokenInfo
+{
+pszTokenName, ItemString -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp449 15 "%0slotID is %10!d!, m_vtrSlotSet.size() is %11!d!" //   LEVEL=INFO FUNC=C_GetTokenInfo
+{
+slotID, ItemLong -- 10
+g_pDeviceHandle->m_vtrSlotSet.size(), ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp396 14 "%0pszTokenName is %10!s!" //   LEVEL=INFO FUNC=C_GetSlotInfo
+{
+pszTokenName, ItemString -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp388 13 "%0szSlotDescription %10!s!, slotID %11!d!" //   LEVEL=INFO FUNC=C_GetSlotInfo
+{
+szSlotDescription, ItemString -- 10
+slotID, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp379 12 "%0slotID is %10!d!, m_vtrSlotSet.size() is %11!d!" //   LEVEL=INFO FUNC=C_GetSlotInfo
+{
+slotID, ItemLong -- 10
+g_pDeviceHandle->m_vtrSlotSet.size(), ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp330 11 "%0*pulCount is %10!d!, m_vtrSlotSet.size() is %11!d!" //   LEVEL=INFO FUNC=C_GetSlotList
+{
+*pulCount, ItemLong -- 10
+g_pDeviceHandle->m_vtrSlotSet.size(), ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp192 10 "%0g_DylibInitState is %10!d!" //   LEVEL=INFO FUNC=C_Initialize
+{
+g_DylibInitState, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp980 21 "%0slotID is %10!d!, m_vtrSlotSet.size() is %11!d!" //   LEVEL=INFO FUNC=C_OpenSession
+{
+slotID, ItemLong -- 10
+g_pDeviceHandle->m_vtrSlotSet.size(), ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp1164 22 "%0Login return code: 0x%10!08x!" //   LEVEL=INFO FUNC=C_Login
+{
+hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp1333 23 "%0hObject is %10!08x!" //   LEVEL=INFO FUNC=C_DestroyObject
+{
+hObject, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  UyeePKCS11_cpp923 20 "%0ChangePIN return code: 0x%10!08x!" //   LEVEL=INFO FUNC=C_SetPIN
+{
+hResult, ItemLong -- 10
+}

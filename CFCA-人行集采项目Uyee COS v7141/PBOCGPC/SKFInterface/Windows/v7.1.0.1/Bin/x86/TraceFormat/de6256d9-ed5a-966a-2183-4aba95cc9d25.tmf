@@ -1,0 +1,19 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+de6256d9-ed5a-966a-2183-4aba95cc9d25 UtapSKF // SRC=ApplicationObject.cpp MJ= MN=
+#typev  ApplicationObject_cpp724 12 "%0%10!s! - SetSingleCert(TRUE)" //   LEVEL=INFO FUNC=CApplicationObject::CreateContainer
+{
+__FUNCTION__, ItemString -- 10
+}
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+#typev  ApplicationObject_cpp476 10 "%0Get data object info ERROR: 0x%10!08X!" //   LEVEL=ERR FUNC=CApplicationObject::SaveDataObjRecord
+{
+hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+#typev  ApplicationObject_cpp509 11 "%0GetObjectContentByIndex: 0x%10!08X!" //   LEVEL=INFO FUNC=CApplicationObject::EnumCosFile
+{
+hResult, ItemLong -- 10
+}

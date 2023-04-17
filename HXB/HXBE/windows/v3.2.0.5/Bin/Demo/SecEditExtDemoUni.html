@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Extension Secure Edit Control</title>
+    <style type="text/css">
+        h1, h2, h3, h4, h5, h6 {
+            color: #222;
+            font-size: 1.54em;
+            font-weight: normal;
+            line-height: 24px;
+            margin: 0 0 .46em;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .sip-box {
+            width: 450px;
+            background: #f5f5f5;
+            border: 1px solid #e5e5e5;
+        }
+
+        .sip-box-table {
+            width: 450px;
+            cellpadding: 2;
+            cellspacing: 0;
+            border: 0;
+        }
+
+        .g-button {
+            display: inline-block;
+            border: 1px solid #3079ed;
+            color: #fff;
+            text-shadow: 0 1px rgba(0,0,0,0.1);
+            background-color: #4d90fe;
+            min-width: 46px;
+            text-align: center;
+            font-size: 11px;
+            font-weight: bold;
+            height: 27px;
+        }
+
+        .lock_tips {
+            position: absolute;
+            height: 16px;
+            padding: 5px;
+            text-align: center;
+            display: none;
+            border: 1px solid #dad699;
+            background: #f9f5c7;
+            border-radius: 2px;
+        }
+
+        .lock_tips_row {
+            position: absolute;
+            top: -6px;
+            left: 15px;
+            width: 12px;
+            height: 6px;
+            background: url(tips_row.png) no-repeat;
+        }
+    </style>
+    <script src="nmSecEditCliPromise.js"></script>
+    <script type="text/javascript">
+        var SecEditType = 4;
+        function GetBrowserVer(userAgent, string) {
+            var reVer = new RegExp(string);
+            reVer.test(userAgent);
+            var Ver = parseFloat(RegExp["$1"]);
+            return Ver;
+        }
+
+        function getSecEditType() {
+            var userAgent = navigator.userAgent;
+            var isWin = (navigator.platform == "Win32") || (navigator.platform == "Win64") || (navigator.platform == "Windows");
+			var islinux = navigator.platform.indexOf("Linux") > -1;
+            var isMac = (navigator.platform == "Mac68K") || (navigator.platform == "MacPPC") || (navigator.platform == "Macintosh") || (navigator.platform == "MacIntel");
+            if (isMac) {
+                var isSafari = userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Chrome") == -1; //判断是否Safari浏览器
+                if (isSafari) {
+                    return 1;
+                }
+            } else if (isWin) {
+                var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera; //判断是否IE浏览器
+                var isIE11 = (userAgent.toLowerCase().indexOf("trident") > -1 && userAgent.indexOf("rv") > -1);
+                var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器
+                var isOpera = userAgent.indexOf("Opera") > -1 || userAgent.indexOf("OPR") > -1; //判断是否Opera浏览器
+                var isFF = userAgent.indexOf("Firefox") > -1; //判断是否Firefox浏览器
+                var isChrome = userAgent.indexOf("Chrome") > -1 && userAgent.indexOf("Safari") > -1 && !isEdge; //判断Chrome浏览器
+
+                if (isIE || isIE11) {
+                    return 2;
+                }
+                if (isEdge) {
+                    return 3;
+                }
+                if (isFF) {
+                    var version = GetBrowserVer(userAgent, "Firefox/(\\d+)\\.\\d+");
+                    if (version >= 14 && version < 52) {
+                        return 2;
+                    }
+                    else if (version >= 52) {
+                        return 3;
+                    }
+                }
+                if (isOpera) {
+                    var version = GetBrowserVer(userAgent, "Opera/(\\d+)\\.\\d+");
+                    if (version >= 11 && version <= 36) {
+                        return 2;
+                    }
+					version = GetBrowserVer(userAgent, "OPR/(\\d+)\\.\\d+");
+					if (version >= 11 && version <= 36) {
+                        return 2;
+                    }
+                }
+                if (isChrome) {
+                    var version = GetBrowserVer(userAgent, "Chrome/(\\d+)\\.\\d+");
+                    if (version >= 12 && version <= 44) {
+                        return 2;
+                    }
+                    else if (version > 41) {
+                        return 3;
+                    }
+                }
+            }
+			else if (islinux) {
+                var isFF = userAgent.indexOf("Firefox") > -1; //判断是否Firefox浏览器
+                var isChrome = userAgent.indexOf("Chrome") > -1 && userAgent.indexOf("Safari") > -1; //判断Chrome浏览器
+                var isUOS = userAgent.indexOf("UOS") > -1; //判断UOS浏览器
+                var isQax = userAgent.indexOf("Qaxbrowser") > -1; //判断奇安信可信浏览器
+
+                if (isFF) {                    
+                    var version = GetBrowserVer(userAgent, "Firefox/(\\d+)\\.\\d+");
+                    if (version >= 14 && version < 52) {
+                        return 2;
+                    }
+                    else if (version >= 52) {
+                        return 3;
+                    }
+                
+                }
+                
+                if (isUOS) {
+                        return 3;   
+                }
+                
+                if (isQax) {
+                        return 3;   
+                }
+                
+                if (isChrome) {                  
+                        return 3;
+                }
+            }
+            return 4;
+        }
+
+        function loadScript(url, id, data) {
+            var script = document.createElement('script');
+            script.id = id;
+            script.type = 'text/javascript';
+            script.src = url;
+            script.data = data;
+            document.body.appendChild(script);
+        }
+
+        function OnLoad() {
+            SecEditType = getSecEditType();
+            if (SecEditType == 2) {
+                if (navigator.appName.indexOf("Internet") >= 0 || navigator.appVersion.indexOf("Trident") >= 0) {
+                    if (window.navigator.cpuClass == "x86") {
+                        document.getElementById("FakeSecEditBox1").innerHTML = "<object id=\"SecEditBox1\" codebase=\"SecEditCtl.HXB.x86.cab\" classid=\"clsid:6B8935F2-AF81-45e8-850B-2100FE454E31\" width=\"240\" height=\"29\"><param name=\"ObjectID\" value=\"SecEditBox1\"><param name=\"MinLength\" value=\"4\"/><param name=\"MaxLength\" value=\"12\"/><param name=\"CipherType\" value=\"0\"><param name=\"CapsLockTip\" value=\"0\"><param name=\"BorderWidth\" value=\"3\"><param name=\"BorderColor\" value=\"#CCEEFF|#FF0\"><param name=\"BackgroundColor\" value=\"#0F0|#0D0\"><param name=\"IntensityRegExp\" value=\"(^[!-~]*[A-Za-z]+[!-~]*[0-9]+[!-~]*$)|(^[!-~]*[0-9]+[!-~]*[A-Za-z]+[!-~]*$)\"/><param name=\"RestrictRegExp\" value=\"([!-~]+)\"><param name=\"ServerRandom\" value=\"MDEyMzQ1Njc4OWFiY2RlZg==\"/></object>";
+                        document.getElementById("FakeSecEditBox2").innerHTML = "<object id=\"SecEditBox2\" codebase=\"SecEditCtl.HXB.x86.cab\"  classid=\"clsid:6B8935F2-AF81-45e8-850B-2100FE454E31\" width=\"240\" height=\"29\"><param name=\"ObjectID\" value=\"SecEditBox2\"><param name=\"MinLength\" value=\"4\"/><param name=\"MaxLength\" value=\"12\"/><param name=\"CipherType\" value=\"1\"><param name=\"CapsLockTip\" value=\"0\"><param name=\"BorderWidth\" value=\"3\"><param name=\"BorderColor\" value=\"#CCEEFF|#FF0\"><param name=\"BackgroundColor\" value=\"#0F0|#0D0\"><param name=\"IntensityRegExp\" value=\"(^[!-~]*[A-Za-z]+[!-~]*[0-9]+[!-~]*$)|(^[!-~]*[0-9]+[!-~]*[A-Za-z]+[!-~]*$)\"/><param name=\"RestrictRegExp\" value=\"([!-~]+)\"><param name=\"ServerRandom\" value=\"MDEyMzQ1Njc4OWFiY2RlZg==\"/></object>";
+                    }
+                    else {
+                        document.getElementById("FakeSecEditBox1").innerHTML = "<object id=\"SecEditBox1\" codebase=\"SecEditCtl.HXB.x64.cab\" classid=\"clsid:23D904EC-B7B8-4F44-8B6B-387615554938\" width=\"240\" height=\"29\"><param name=\"ObjectID\" value=\"SecEditBox1\"><param name=\"MinLength\" value=\"4\"/><param name=\"MaxLength\" value=\"12\"/><param name=\"CipherType\" value=\"0\"><param name=\"CapsLockTip\" value=\"0\"><param name=\"BorderWidth\" value=\"3\"><param name=\"BorderColor\" value=\"#CCEEFF|#FF0\"><param name=\"BackgroundColor\" value=\"#0F0|#0D0\"><param name=\"IntensityRegExp\" value=\"(^[!-~]*[A-Za-z]+[!-~]*[0-9]+[!-~]*$)|(^[!-~]*[0-9]+[!-~]*[A-Za-z]+[!-~]*$)\"/><param name=\"RestrictRegExp\" value=\"([!-~]+)\"><param name=\"ServerRandom\" value=\"MDEyMzQ1Njc4OWFiY2RlZg==\"/></object>";
+                        document.getElementById("FakeSecEditBox2").innerHTML = "<object id=\"SecEditBox2\" codebase=\"SecEditCtl.HXB.x64.cab\" classid=\"clsid:23D904EC-B7B8-4F44-8B6B-387615554938\" width=\"240\" height=\"29\"><param name=\"ObjectID\" value=\"SecEditBox2\"><param name=\"MinLength\" value=\"4\"/><param name=\"MaxLength\" value=\"12\"/><param name=\"CipherType\" value=\"1\"><param name=\"CapsLockTip\" value=\"0\"><param name=\"BorderWidth\" value=\"3\"><param name=\"BorderColor\" value=\"#CCEEFF|#FF0\"><param name=\"BackgroundColor\" value=\"#0F0|#0D0\"><param name=\"IntensityRegExp\" value=\"(^[!-~]*[A-Za-z]+[!-~]*[0-9]+[!-~]*$)|(^[!-~]*[0-9]+[!-~]*[A-Za-z]+[!-~]*$)\"/><param name=\"RestrictRegExp\" value=\"([!-~]+)\"><param name=\"ServerRandom\" value=\"MDEyMzQ1Njc4OWFiY2RlZg==\"/></object>";
+                    }
+                }
+                else {
+                    document.getElementById("FakeSecEditBox1").innerHTML = "<object id=\"SecEditBox1\" type=\"application/npSecEditCtl.HXB.x86\" width=\"240\" height=\"29\"><param name=\"MinLength\" value=\"4\"/><param name=\"ObjectID\" value=\"SecEditBox1\"><param name=\"MaxLength\" value=\"12\"/><param name=\"CipherType\" value=\"0\"><param name=\"CapsLockTip\" value=\"0\"><param name=\"BorderWidth\" value=\"3\"><param name=\"BorderColor\" value=\"#CCEEFF|#FF0\"><param name=\"BackgroundColor\" value=\"#0F0|#0D0\"><param name=\"IntensityRegExp\" value=\"(^[!-~]*[A-Za-z]+[!-~]*[0-9]+[!-~]*$)|(^[!-~]*[0-9]+[!-~]*[A-Za-z]+[!-~]*$)\"/><param name=\"RestrictRegExp\" value=\"([!-~]+)\"><param name=\"ServerRandom\" value=\"MDEyMzQ1Njc4OWFiY2RlZg==\"/></object>";
+                    document.getElementById("FakeSecEditBox2").innerHTML = "<object id=\"SecEditBox2\" type=\"application/npSecEditCtl.HXB.x86\" width=\"240\" height=\"29\"><param name=\"ObjectID\" value=\"SecEditBox2\"><param name=\"MinLength\" value=\"4\"/><param name=\"MaxLength\" value=\"12\"/><param name=\"CipherType\" value=\"1\"><param name=\"CapsLockTip\" value=\"0\"><param name=\"BorderWidth\" value=\"3\"><param name=\"BorderColor\" value=\"#CCEEFF|#FF0\"><param name=\"BackgroundColor\" value=\"#0F0|#0D0\"><param name=\"IntensityRegExp\" value=\"(^[!-~]*[A-Za-z]+[!-~]*[0-9]+[!-~]*$)|(^[!-~]*[0-9]+[!-~]*[A-Za-z]+[!-~]*$)\"/><param name=\"RestrictRegExp\" value=\"([!-~]+)\"><param name=\"ServerRandom\" value=\"MDEyMzQ1Njc4OWFiY2RlZg==\"/></object>";
+                }
+            }
+            else if (SecEditType == 3) {
+                loadScript('extention.js')
+            }
+            else {
+                alert("Unsupported browser!")
+            }
+        }
+
+        function ButtonOnClick(objID) {
+            try {
+                var obj = document.getElementById(objID);
+                if (SecEditType == 2) {
+                    var Version = 0;
+                    var EncryptedPassword = "";
+                    var ClientRandom = "";
+                    var PasswordLengthIntensity = 0;
+                    var PasswordComplexIntensity = 0;
+                    var PasswordStrength = 0;
+                    var IsWeakPassword = false;
+                    var PasswordLength = 0;
+                    var NetInfo = "";
+                    var HashData = "";
+                    document.getElementById("encryptedResult").value = "";
+                    document.getElementById("getSIPBox1Value").disabled = true;
+                    document.getElementById("getSIPBox2Value").disabled = true;
+
+                    PasswordLength = obj.GetPasswordLength();
+                    if (PasswordLength == 0) {
+                        alert("please input a password!");
+                        document.getElementById("getSIPBox1Value").disabled = false;
+                        document.getElementById("getSIPBox2Value").disabled = false;
+                        return false;
+                    }
+                    Version = obj.GetVersion();
+                    PasswordLengthIntensity = obj.GetLengthIntensity();
+                    PasswordComplexIntensity = obj.GetComplexIntensity();
+                    PasswordLength = obj.GetPasswordLength();
+                    EncryptedPassword = obj.GetValue();
+                    ClientRandom = obj.GetClientRandom();
+                    PasswordStrength = obj.GetPasswordStrength();
+                    NetInfo = obj.GetNetInfo();
+                    IsWeakPassword = obj.IsWeakPassword();
+                    HashData = obj.SM3HashData(EncryptedPassword, "56789", "");
+                    document.getElementById("encryptedResult").value = "Version: \n" + Version.toString(16) + "\n\n" + "Length Intensity: \n" + PasswordLengthIntensity + "\n\n" + "Password length: \n" + PasswordLength + "\n\n" + "Complex Intensity: \n" + PasswordComplexIntensity + "\n\n" + "Password Strength: \n" + PasswordStrength + "\n\n" + "Is Weak Password: \n" + IsWeakPassword + "\n\n" + "Client Random: \n" + ClientRandom + "\n\nServer Random: \nMDEyMzQ1Njc4OWFiY2RlZg==" + "\n\n" + "Encrypted Password: \n" + EncryptedPassword + "\n\n" + "Net info: \n" + NetInfo + "\n\n" + "SM3HashData: \n" + HashData + "\n\n";
+                    document.getElementById("getSIPBox1Value").disabled = false;
+                    document.getElementById("getSIPBox2Value").disabled = false;
+                }
+                else if (SecEditType == 3) {
+                    if (ButtonOnClickExt) {
+                        ButtonOnClickExt(objID)
+                    }
+                }
+            }
+            catch (e) {
+                alert("error! <" + e + ">");
+            }
+        }
+
+        function Clear(objID) {
+            try {
+                if (SecEditType == 2) {
+                    var obj = document.getElementById(objID);
+                    obj.Clear();
+                }
+                else if (SecEditType == 3) {
+                    ClearData(objID);
+                }
+            }
+            catch (e) {
+                alert("error! <" + e + ">");
+            }
+        }
+        
+        function PressTab(ObjectID){
+            var vNextFocus = 'encryptedResult';
+            document.getElementById(ObjectID).blur();
+            
+            if (ObjectID == 'SecEditBox1') {
+                vNextFocus = 'SecEditBox2';
+            }
+            
+            setTimeout(function () { document.getElementById(vNextFocus).focus();}, 200);
+            document.getElementById('encryptedResult').value = vNextFocus + " focus";
+        }        
+
+        window.onbeforeunload = function (e) {
+            if (SecEditType == 3)
+                DisconnectHost();
+        };
+
+        function OnUnLoad() {
+            if (SecEditType == 3)
+                DisconnectHost();
+        }
+    </script>
+    <SCRIPT language="javascript" for="SecEditBox1" event="PressTab(BstrName)">
+        PressTab(BstrName);
+    </SCRIPT>
+    
+    <SCRIPT language="javascript" for="SecEditBox2" event="PressTab(BstrName)">
+        PressTab(BstrName);
+    </SCRIPT> 
+</head>
+<body onload="javascript:OnLoad();" onunload="javascript:OnUnLoad();">
+    <div id="SIPBox" class="sip-box">
+        <h3>Extension Secure Edit Control Demo Page</h3>
+        <a id="SecEditCtlExtension" style="display:none">Install CFCA SecEditCtl Extension</a>
+
+        <table class="sip-box-table" cellpadding="0" cellspacing="0">
+            <tr height="35">
+                <td>控件1(RSA)</td>
+                <td>
+                    <div id="FakeSecEditBox1"></div>
+                </td>
+                <td>
+                    <button data-mini="true" class="g-button" id="clearSIPBox1" name="SIPBox1" onclick="Clear(&quot;SecEditBox1&quot;)">清空</button>
+                </td>
+            </tr>
+
+            <tr height="35" width="250">
+                <td>控件2(SM2)</td>
+                <td>
+                    <div id="FakeSecEditBox2"></div>
+                </td>
+                <td>
+                    <button data-mini="true" class="g-button" id="clearSIPBox2" name="SIPBox2" onclick="Clear(&quot;SecEditBox2&quot;)">清空</button>
+                </td>
+            </tr>
+
+            <tr height="35">
+                <td>
+                    <button data-mini="true" class="g-button" id="getSIPBox1Value" name="SIPBox" onclick="ButtonOnClick(&quot;SecEditBox1&quot;)">获取控件1结果</button>
+                </td>
+
+                <td>
+                    <button data-mini="true" class="g-button" id="getSIPBox2Value" name="SIPBox" onclick="ButtonOnClick(&quot;SecEditBox2&quot;)">获取控件2结果</button>
+                </td>
+
+            </tr>
+            <tr height="35">
+                <td colspan="3">加密结果:</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <textarea id="encryptedResult" name="encryptedResult" cols="50" rows="20"></textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

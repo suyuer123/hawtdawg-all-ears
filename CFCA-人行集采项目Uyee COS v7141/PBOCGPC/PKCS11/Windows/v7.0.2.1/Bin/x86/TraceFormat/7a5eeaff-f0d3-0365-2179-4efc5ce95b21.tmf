@@ -1,0 +1,8 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+7a5eeaff-f0d3-0365-2179-4efc5ce95b21 ULANCore // SRC=AsymKeyObject.cpp MJ= MN=
+#typev  AsymKeyObject_cpp310 10 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CRSADevObj::SignDigest
+{
+__FUNCTIONW__, ItemWString -- 10
+_T('PKCS#1 Padding'), ItemWString -- 11
+}

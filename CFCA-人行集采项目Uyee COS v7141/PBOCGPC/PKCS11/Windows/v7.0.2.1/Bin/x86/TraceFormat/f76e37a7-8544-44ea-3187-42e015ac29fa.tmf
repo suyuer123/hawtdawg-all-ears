@@ -1,0 +1,26 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+f76e37a7-8544-44ea-3187-42e015ac29fa UyeePKCS11 // SRC=HashHandle.cpp MJ= MN=
+#typev  HashHandle_cpp31 10 "%0algid %10!d!" //   LEVEL=INFO FUNC=HashHandle::Init
+{
+algid, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  HashHandle_cpp98 11 "%0dwDataLen is %10!d!." //   LEVEL=INFO FUNC=HashHandle::Update
+{
+dwDataLen, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  HashHandle_cpp138 13 "%0dwHashDataLen %10!d!,  pHashHandle->dwHashLen %11!d!." //   LEVEL=INFO FUNC=HashHandle::Final
+{
+dwHashDataLen, ItemLong -- 10
+m_dwHashLen, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  HashHandle_cpp128 12 "%0dwDataLen is %10!d!." //   LEVEL=INFO FUNC=HashHandle::Final
+{
+dwHashDataLen, ItemLong -- 10
+}

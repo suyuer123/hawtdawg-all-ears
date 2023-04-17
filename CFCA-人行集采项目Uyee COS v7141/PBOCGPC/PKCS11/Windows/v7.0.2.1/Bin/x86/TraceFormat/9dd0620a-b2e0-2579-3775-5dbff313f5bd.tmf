@@ -1,0 +1,8 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+9dd0620a-b2e0-2579-3775-5dbff313f5bd ULANCore // SRC=DeviceContext.cpp MJ= MN=
+#typev  DeviceContext_cpp539 10 "%0%10!s! - %11!s!" //   LEVEL=INFO FUNC=CDeviceContext::TraceInfo
+{
+__FUNCTIONW__, ItemWString -- 10
+tszTraceInfo, ItemWString -- 11
+}

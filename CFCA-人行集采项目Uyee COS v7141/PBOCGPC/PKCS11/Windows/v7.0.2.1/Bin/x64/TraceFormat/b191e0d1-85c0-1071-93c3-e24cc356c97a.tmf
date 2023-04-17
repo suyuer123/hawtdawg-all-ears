@@ -1,0 +1,42 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+b191e0d1-85c0-1071-93c3-e24cc356c97a UyeePKCS11 // SRC=DeviceHandle.cpp MJ= MN=
+#typev  DeviceHandle_cpp267 22 "%0m_vtrSlotSet.size() <= 0" //   LEVEL=INFO FUNC=DeviceHandle::IsDeviceExist
+{
+}
+#typev  DeviceHandle_cpp263 21 "%0pszDevName %10!s!" //   LEVEL=INFO FUNC=DeviceHandle::IsDeviceExist
+{
+pszDevName, ItemString -- 10
+}
+#typev  DeviceHandle_cpp260 20 "%0ulSlotID <= 0 or pszDevName is NULL, parameter invalid" //   LEVEL=INFO FUNC=DeviceHandle::IsDeviceExist
+{
+}
+#typev  DeviceHandle_cpp204 16 "%0m_vtrSlotSet.size() <= 0" //   LEVEL=INFO FUNC=DeviceHandle::IsSlotValid
+{
+}
+#typev  DeviceHandle_cpp198 15 "%0ulSlotID <= 0 invalid" //   LEVEL=INFO FUNC=DeviceHandle::IsSlotValid
+{
+}
+#typev  DeviceHandle_cpp195 14 "%0ulSlotID is %10!08X!" //   LEVEL=INFO FUNC=DeviceHandle::IsSlotValid
+{
+ulSlotID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  DeviceHandle_cpp165 13 "%0pszTokenName is %10!s!" //   LEVEL=INFO FUNC=DeviceHandle::GetSlotIDByTokenName
+{
+pszTokenName, ItemString -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  DeviceHandle_cpp134 12 "%0slotID is %10!ld!, szTokenName is %11!s!" //   LEVEL=INFO FUNC=DeviceHandle::GetTokenNameBySlotID
+{
+iter->ulSlotID, ItemLong -- 10
+iter->szTokenName, ItemString -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  DeviceHandle_cpp125 11 "%0ulSlotID is %10!08X!" //   LEVEL=INFO FUNC=DeviceHandle::GetTokenNameBySlotID
+{
+ulSlotID, ItemLong -- 10
+}

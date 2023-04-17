@@ -1,0 +1,8 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+7b0dd7c8-a7ba-5428-8c06-86d84705f362 UyeeSKF // SRC=SKFInterface.cpp MJ= MN=
+#typev  SKFInterface_cpp101 10 "%0TransErrorCode:0x%10!08x! to 0x%11!08x! success" //   LEVEL=ERR FUNC=SKF_TransErrorCode
+{
+(u32)hResult, ItemLong -- 10
+(u32)ulErrCode, ItemLong -- 11
+}

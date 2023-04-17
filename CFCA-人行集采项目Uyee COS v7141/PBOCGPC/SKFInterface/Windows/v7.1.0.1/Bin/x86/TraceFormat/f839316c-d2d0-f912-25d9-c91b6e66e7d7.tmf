@@ -1,0 +1,15 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+f839316c-d2d0-f912-25d9-c91b6e66e7d7 UyeeSKF // SRC=OperationConfirmDlg.cpp MJ= MN=
+#typev  OperationConfirmDlg_cpp198 12 "%0Unlock PIN return: 0x%10!08x!" //   LEVEL=INFO FUNC=COperationConfirmDlg::ConfirmWorkingThread
+{
+hResult, ItemLong -- 10
+}
+#typev  OperationConfirmDlg_cpp188 11 "%0Modify PIN return: 0x%10!08x!" //   LEVEL=INFO FUNC=COperationConfirmDlg::ConfirmWorkingThread
+{
+hResult, ItemLong -- 10
+}
+#typev  OperationConfirmDlg_cpp178 10 "%0Check PIN return: 0x%10!08x!" //   LEVEL=INFO FUNC=COperationConfirmDlg::ConfirmWorkingThread
+{
+hResult, ItemLong -- 10
+}

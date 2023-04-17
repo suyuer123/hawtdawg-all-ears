@@ -1,0 +1,8 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+d8b180d8-656a-c7c4-c596-640b646ad8c3 UtapSKF // SRC=DialogObject.cpp MJ= MN=
+#typev  DialogObject_cpp75 10 "%0nRemainRetryTimes %10!d!, nDefault %11!d!" //   LEVEL=INFO FUNC=CDialogObject::CheckUserPIN
+{
+nRemainRetryTimes, ItemLong -- 10
+nDefault, ItemLong -- 11
+}

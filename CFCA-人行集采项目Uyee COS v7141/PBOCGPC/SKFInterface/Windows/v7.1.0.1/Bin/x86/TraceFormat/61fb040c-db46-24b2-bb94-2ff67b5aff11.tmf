@@ -1,0 +1,13 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x86\Release\UkeySKF_CFCA_CFCAKey.dll
+// PDB:  Last Updated :2023-3-20:8:54:55:347 (UTC) [tracepdb]
+61fb040c-db46-24b2-bb94-2ff67b5aff11 ULANComm // SRC=ULANMassStorage.cpp MJ= MN=
+#typev  ULANMassStorage_cpp35 11 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanMassStorage::`scalar deleting destructor'
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Destructor', ItemWString -- 11
+}
+#typev  ULANMassStorage_cpp28 10 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanMassStorage::CUlanMassStorage
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Constructor', ItemWString -- 11
+}

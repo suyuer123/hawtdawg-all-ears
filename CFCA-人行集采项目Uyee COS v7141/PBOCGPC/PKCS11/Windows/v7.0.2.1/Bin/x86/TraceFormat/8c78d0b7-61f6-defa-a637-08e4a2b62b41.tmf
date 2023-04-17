@@ -1,0 +1,13 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+8c78d0b7-61f6-defa-a637-08e4a2b62b41 ULANComm // SRC=ULANWinUSB.cpp MJ= MN=
+#typev  ULANWinUSB_cpp50 11 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanWinUSB::~CUlanWinUSB
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Destructor', ItemWString -- 11
+}
+#typev  ULANWinUSB_cpp43 10 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanWinUSB::CUlanWinUSB
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Constructor', ItemWString -- 11
+}

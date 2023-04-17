@@ -1,0 +1,665 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+109164f4-98bb-075f-452a-ce6cc5719fa6 UyeePKCS11 // SRC=TokenHandle.cpp MJ= MN=
+#typev  TokenHandle_cpp5682 177 "%0FindSpecificRecordIndex invalid parameter" //   LEVEL=ERR FUNC=TokenHandle::IsRecordExist
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp882 52 "%0*pulObjectHandleID is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::ConstructObjectHandleID
+{
+ulObjectSessionHandleID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp869 51 "%0ulObjectID is %10!08X!" //   LEVEL=INFO FUNC=TokenHandle::ConstructObjectHandleID
+{
+ulObjectID, ItemLong -- 10
+}
+#typev  TokenHandle_cpp868 50 "%0ulObjectSpec is %10!08X!" //   LEVEL=INFO FUNC=TokenHandle::ConstructObjectHandleID
+{
+ulObjectSpec, ItemLong -- 10
+}
+#typev  TokenHandle_cpp867 49 "%0ulObjectType is %10!08X!" //   LEVEL=INFO FUNC=TokenHandle::ConstructObjectHandleID
+{
+ulObjectType, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp840 48 "%0ulObjectID is %10!08X!" //   LEVEL=INFO FUNC=TokenHandle::GetObjectInfoFromObjectHandleID
+{
+ulObjectID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp836 47 "%0ulObjectSpec is %10!08X!" //   LEVEL=INFO FUNC=TokenHandle::GetObjectInfoFromObjectHandleID
+{
+ulObjectSpec, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp832 46 "%0ulObjectType is %10!08X!" //   LEVEL=INFO FUNC=TokenHandle::GetObjectInfoFromObjectHandleID
+{
+ulObjectType, ItemLong -- 10
+}
+#typev  TokenHandle_cpp829 45 "%0ulSlotID is %10!08X!" //   LEVEL=INFO FUNC=TokenHandle::GetObjectInfoFromObjectHandleID
+{
+ulSlotID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp821 44 "%0ulObjectHandleID is %10!08X!" //   LEVEL=INFO FUNC=TokenHandle::GetObjectInfoFromObjectHandleID
+{
+ulObjectHandleID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp5641 176 "%0GetCosFileInfo: 0x%10!08X!" //   LEVEL=ERR FUNC=TokenHandle::SaveDataObjRecord
+{
+hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp5598 175 "%0GetObjectContentByIndex: 0x%10!08X!" //   LEVEL=INFO FUNC=TokenHandle::LoadDataObjRecord
+{
+hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp5498 174 "%0GetObjectValueFromCache success" //   LEVEL=INFO FUNC=TokenHandle::ExportCertificate
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp5454 173 "%0GetObjectValueFromCache success." //   LEVEL=INFO FUNC=TokenHandle::ExportCertificate
+{
+}
+#typev  TokenHandle_cpp5451 172 "%0GetObjectValueFromCache result: 0x%10!08x!" //   LEVEL=INFO FUNC=TokenHandle::ExportCertificate
+{
+(unsigned int)hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp4794 171 "%0container name %10!s!, byKeyType %11!d!" //   LEVEL=INFO FUNC=TokenHandle::ExportPubKey
+{
+pstContainer->ContainerName, ItemString -- 10
+byKeyType, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3231 157 "%0find it" //   LEVEL=INFO FUNC=TokenHandle::IsContainerExists
+{
+}
+#typev  TokenHandle_cpp3227 156 "%0pContainer->ContainerName is %10!s!" //   LEVEL=INFO FUNC=TokenHandle::IsContainerExists
+{
+pContainer->ContainerName, ItemString -- 10
+}
+#typev  TokenHandle_cpp3218 155 "%0pszContainerName is %10!s!" //   LEVEL=INFO FUNC=TokenHandle::IsContainerExists
+{
+pszContainerName, ItemString -- 10
+}
+#typev  TokenHandle_cpp3215 154 "%0pszContainerName is NULL" //   LEVEL=INFO FUNC=TokenHandle::IsContainerExists
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2782 143 "%0Find end" //   LEVEL=INFO FUNC=TokenHandle::FindDataObjectByAttributes
+{
+}
+#typev  TokenHandle_cpp2777 142 "%0ulObjectSpec %10!d!, ulContainerPosition %11!d!, ObjectHandleID 0x%12!08X!" //   LEVEL=INFO FUNC=TokenHandle::FindDataObjectByAttributes
+{
+ulObjectSpec, ItemLong -- 10
+nIndex + 1, ItemLong -- 11
+*(pObjectID + ulFindObjectCount), ItemLong -- 12
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2763 141 "%0pTemplate[ulTempCount].type is 0x%10!08X! (default true)" //   LEVEL=INFO FUNC=TokenHandle::FindDataObjectByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2655 140 "%0Find end" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2650 139 "%0ulObjectSpec %10!d!, ulContainerPosition %11!d!, ObjectHandleID 0x%12!08X!" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+ulObjectSpec, ItemLong -- 10
+ulContainerPosition + 1, ItemLong -- 11
+*(pObjectID + ulFindObjectCount), ItemLong -- 12
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2576 132 "%0CKA_ID" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2584 133 "%0CKA_ENCRYPT" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2595 134 "%0CKA_DECRYPT" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2606 135 "%0CKA_WRAP" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2617 136 "%0CKA_UNWRAP" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2637 138 "%0pTemplate[ulTempCount].type is 0x%10!08X! (default true)" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2555 131 "%0CKA_KEY_TYPE" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2528 128 "%0CKA_TOKEN" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2538 129 "%0CKA_PRIVATE" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2547 130 "%0CKA_LABEL" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2628 137 "%0CKA_VALUE" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2518 127 "%0pTemplate[ulTempCount].type %10!d!, pTemplate[ulTempCount].ulValueLen %11!d!" //   LEVEL=INFO FUNC=TokenHandle::FindSymKeyByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2434 126 "%0Find end" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2428 125 "%0ulObjectSpec %10!d!, ulContainerPosition %11!d!, ObjectHandleID 0x%12!08X!" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+ulObjectSpec, ItemLong -- 10
+ulContainerPosition + 1, ItemLong -- 11
+*(pObjectID + ulFindObjectCount), ItemLong -- 12
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2294 114 "%0CKA_PRIVATE" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2356 120 "%0CKA_SERIAL_NUMBER" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2322 117 "%0CKA_SUBJECT" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+#typev  TokenHandle_cpp2335 118 "%0CKA_ID" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2378 122 "%0CKA_ENCRYPT" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2396 123 "%0CKA_VERIFY" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+#typev  TokenHandle_cpp2415 124 "%0pTemplate[ulTempCount].type is 0x%10!08X! (default true)" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2343 119 "%0CKA_ISSUER" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+#typev  TokenHandle_cpp2304 115 "%0CKA_LABEL" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+#typev  TokenHandle_cpp2369 121 "%0CKA_VALUE" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2312 116 "%0CKA_CERTIFICATE_TYPE" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+}
+#typev  TokenHandle_cpp2278 113 "%0pTemplate[ulTempCount].type %10!d!, pTemplate[ulTempCount].ulValueLen %11!d!" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2256 112 "%0nCertCount is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::FindCertificateByAttributes
+{
+nCertCount, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2117 111 "%0Find end" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2112 110 "%0ulObjectSpec %10!d!, ulContainerPosition %11!d!, ObjectHandleID 0x%12!08X!" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+ulObjectSpec, ItemLong -- 10
+ulContainerPosition + 1, ItemLong -- 11
+*(pObjectID + ulFindObjectCount), ItemLong -- 12
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2062 106 "%0CKA_SM2_Y" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2073 107 "%0CKA_SM2_BITS_LENGTH" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2097 109 "%0pTemplate[ulTempCount].type is 0x%10!08X! (default true)" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+#typev  TokenHandle_cpp2051 105 "%0CKA_SM2_X" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp2037 104 "%0CKA_MODULUS_BITS" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2015 102 "%0CKA_PUBLIC_EXPONENT" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2085 108 "%0CKA_SM2_BITS_LENGTH" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp2026 103 "%0CKA_MODULUS" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1970 99 "%0CKA_ID" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1979 100 "%0CKA_ENCRYPT" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1997 101 "%0CKA_VERIFY" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1959 98 "%0CKA_KEY_TYPE" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1934 95 "%0CKA_TOKEN" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1941 96 "%0CKA_PRIVATE" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1951 97 "%0CKA_LABEL" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1924 94 "%0pTemplate[ulTempCount].type %10!d!, pTemplate[ulTempCount].ulValueLen %11!d!" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1898 93 "%0nPubKeyCount is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::FindPublicKeyByAttributes
+{
+nPubKeyCount, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1589 84 "%0Find end" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1584 83 "%0ulObjectSpec %10!d!, ulContainerPosition %11!d!, ObjectHandleID 0x%12!08X!" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+ulObjectSpec, ItemLong -- 10
+ulContainerPosition + 1, ItemLong -- 11
+*(pObjectID + ulFindObjectCount), ItemLong -- 12
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1542 80 "%0CKA_EXTRACTABLE" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1568 82 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1555 81 "%0CKA_SM2_CURVE_NAME" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1490 79 "%0CKA_SIGN" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1473 78 "%0CKA_DECRYPT" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1468 77 "%0CK_ID match" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1464 76 "%0Current ckID is %10!s!, the ckID to find is %11!s!" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+szCkID[nPriKeyCount], ItemString -- 10
+(char*)(pTemplate[ulTempCount].pValue), ItemString -- 11
+}
+#typev  TokenHandle_cpp1463 75 "%0CKA_ID" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1452 74 "%0CKA_KEY_TYPE" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1424 71 "%0CKA_TOKEN" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1434 72 "%0CKA_PRIVATE" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1444 73 "%0CKA_LABEL" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+}
+#typev  TokenHandle_cpp1414 70 "%0pTemplate[ulTempCount].type %10!d!, pTemplate[ulTempCount].ulValueLen %11!d!" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 11
+}
+#typev  TokenHandle_cpp1405 69 "%0nPriKeyCount is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::FindPrivateKeyByAttributes
+{
+nPriKeyCount, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp961 59 "%0bUsedFlag is false" //   LEVEL=ERR FUNC=TokenHandle::IsObjectHandleIDValid
+{
+}
+#typev  TokenHandle_cpp955 58 "%0ulObjectID (%10!d!) > MAX_DATA_OBJECT_RECORD" //   LEVEL=ERR FUNC=TokenHandle::IsObjectHandleIDValid
+{
+ulObjectID, ItemLong -- 10
+}
+#typev  TokenHandle_cpp923 54 "%0Cert handle is invalid" //   LEVEL=ERR FUNC=TokenHandle::IsObjectHandleIDValid
+{
+}
+#typev  TokenHandle_cpp941 56 "%0Public key handle is invalid" //   LEVEL=ERR FUNC=TokenHandle::IsObjectHandleIDValid
+{
+}
+#typev  TokenHandle_cpp932 55 "%0Private key handle is invalid" //   LEVEL=ERR FUNC=TokenHandle::IsObjectHandleIDValid
+{
+}
+#typev  TokenHandle_cpp948 57 "%0pSymKeyHandle is NULL" //   LEVEL=ERR FUNC=TokenHandle::IsObjectHandleIDValid
+{
+}
+#typev  TokenHandle_cpp966 60 "%0Only support CKO_DATA, CKO_CERTIFICATE, CKO_PRIVATE_KEY, CKO_PUBLIC_KEY, CKO_SECRET_KEY" //   LEVEL=ERR FUNC=TokenHandle::IsObjectHandleIDValid
+{
+}
+#typev  TokenHandle_cpp911 53 "%0GetObjectInfoFromObjectHandleID failed" //   LEVEL=INFO FUNC=TokenHandle::IsObjectHandleIDValid
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3054 149 "%0CKA_DECRYPT" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3064 150 "%0CKA_WRAP" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3074 151 "%0CKA_UNWRAP" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+}
+#typev  TokenHandle_cpp3090 153 "%0pTemplate[ulTempCount].type is 0x%10!08X!(default parameter ignore)" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3044 148 "%0CKA_ENCRYPT" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3019 145 "%0CKA_PRIVATE" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3026 146 "%0CKA_LABEL" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+}
+#typev  TokenHandle_cpp3084 152 "%0CKA_VALUE" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3035 147 "%0CKA_ID" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+}
+#typev  TokenHandle_cpp3011 144 "%0pTemplate[ulTempCount].type %10!d!, pTemplate[ulTempCount].ulValueLen %11!d!" //   LEVEL=INFO FUNC=TokenHandle::CreateSymKeyObjectByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp232 14 "%0ReadUlanContainer return code: 0x%10!08X!" //   LEVEL=INFO FUNC=TokenHandle::LoadContainerInfo
+{
+hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp216 13 "%0EnumContainer %10!s!" //   LEVEL=INFO FUNC=TokenHandle::LoadContainerInfo
+{
+S_OK == hResult ? _T('Successfully') : _T('Fails'), ItemWString -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp31 10 "%0pszTokenName is %10!s!" //   LEVEL=INFO FUNC=TokenHandle::TokenHandle
+{
+pszTokenName, ItemString -- 10
+}
+#typev  TokenHandle_cpp331 15 "%0PIN left times is: %10!d!" //   LEVEL=INFO FUNC=TokenHandle::InitializeTokenHandle
+{
+(int)nLeftTimes, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp179 12 "%0pszTokenName is %10!s!" //   LEVEL=INFO FUNC=TokenHandle::CreateRegisteredTokenHandle
+{
+pszTokenName, ItemString -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp408 17 "%0ulLeftTimes %10!d!, bChanged %11!d!, byUserRight %12!d!" //   LEVEL=INFO FUNC=TokenHandle::CheckUserPIN
+{
+ulLeftTimes, ItemLong -- 10
+bChanged, ItemLong -- 11
+byUserRight, ItemLong -- 12
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp113 11 "%0ulLeftTimes %10!d!, bChanged %11!d!" //   LEVEL=INFO FUNC=TokenHandle::P11OperationCallback
+{
+ulLeftTimes, ItemLong -- 10
+bChanged, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3440 161 "%0pAsnNode->Tag is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::UnWrapKey
+{
+pAsnNode->Tag, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3351 160 "%0GenKeyPair PubKeyHandle %10!08X!, PriKeyHandle %11!08X!" //   LEVEL=INFO FUNC=TokenHandle::GenerateKeyPairByAttributes
+{
+ulPubKeyHandleID, ItemLong -- 10
+ulPriKeyHandleID, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3317 159 "%0PrivateKey ulPriKeySpec %10!d!, ulPriKeyFlag is 0x%11!08X!" //   LEVEL=INFO FUNC=TokenHandle::GenerateKeyPairByAttributes
+{
+ulPriKeySpec, ItemLong -- 10
+ulPriKeyFlag, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp3304 158 "%0PublicKey ulPubKeySpec %10!d!, ulPubKeyFlag is 0x%11!08X!" //   LEVEL=INFO FUNC=TokenHandle::GenerateKeyPairByAttributes
+{
+ulPubKeySpec, ItemLong -- 10
+ulPubKeyFlag, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1716 90 "%0CKA_PUBLIC_EXPONENT size is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::CreatePublicKeyObjectByAttributes
+{
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1712 89 "%0CKA_WRAP" //   LEVEL=INFO FUNC=TokenHandle::CreatePublicKeyObjectByAttributes
+{
+}
+#typev  TokenHandle_cpp1747 92 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=TokenHandle::CreatePublicKeyObjectByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+#typev  TokenHandle_cpp1725 91 "%0CKA_MODULUS size is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::CreatePublicKeyObjectByAttributes
+{
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1686 86 "%0CKA_PRIVATE" //   LEVEL=INFO FUNC=TokenHandle::CreatePublicKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1693 87 "%0CKA_ENCRYPT" //   LEVEL=INFO FUNC=TokenHandle::CreatePublicKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1703 88 "%0CKA_VERIFY" //   LEVEL=INFO FUNC=TokenHandle::CreatePublicKeyObjectByAttributes
+{
+}
+#typev  TokenHandle_cpp1678 85 "%0pTemplate[ulTempCount].type %10!d!, pTemplate[ulTempCount].ulValueLen %11!d!" //   LEVEL=INFO FUNC=TokenHandle::CreatePublicKeyObjectByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1244 66 "%0CKA_PUBLIC_EXPONENT size is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::CreateRSAPriKeyObjectByAttributes
+{
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 10
+}
+#typev  TokenHandle_cpp1250 67 "%0CKA_PRIVATE_EXPONENT size is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::CreateRSAPriKeyObjectByAttributes
+{
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 10
+}
+#typev  TokenHandle_cpp1256 68 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=TokenHandle::CreateRSAPriKeyObjectByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+#typev  TokenHandle_cpp1238 65 "%0CKA_MODULUS size is %10!d!" //   LEVEL=INFO FUNC=TokenHandle::CreateRSAPriKeyObjectByAttributes
+{
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1218 62 "%0CKA_PRIVATE" //   LEVEL=INFO FUNC=TokenHandle::CreateRSAPriKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1225 63 "%0CKA_DECRYPT" //   LEVEL=INFO FUNC=TokenHandle::CreateRSAPriKeyObjectByAttributes
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp1232 64 "%0CKA_SIGN" //   LEVEL=INFO FUNC=TokenHandle::CreateRSAPriKeyObjectByAttributes
+{
+}
+#typev  TokenHandle_cpp1210 61 "%0pTemplate[ulTempCount].type %10!d!, pTemplate[ulTempCount].ulValueLen %11!d!" //   LEVEL=INFO FUNC=TokenHandle::CreateRSAPriKeyObjectByAttributes
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+pTemplate[ulTempCount].ulValueLen, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp4642 170 "%0PrikeyDec C1C3C2 Result: 0x%10!08x!" //   LEVEL=INFO FUNC=TokenHandle::PriKeyDecrypt
+{
+(unsigned int)hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp4631 169 "%0Convert C1C2C3 to C1C3C2, then retry" //   LEVEL=INFO FUNC=TokenHandle::PriKeyDecrypt
+{
+}
+#typev  TokenHandle_cpp4626 168 "%0PrikeyDec C1C2C3 Result: 0x%10!08x!" //   LEVEL=INFO FUNC=TokenHandle::PriKeyDecrypt
+{
+(unsigned int)hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp4609 167 "%0PrikeyDec Original data Result: 0x%10!08x!" //   LEVEL=INFO FUNC=TokenHandle::PriKeyDecrypt
+{
+(unsigned int)hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  TokenHandle_cpp4039 166 "%0Reset token status 0x%10!08x!" //   LEVEL=INFO FUNC=SessionHandle::Logout
+{
+(unsigned int)hResult, ItemLong -- 10
+}

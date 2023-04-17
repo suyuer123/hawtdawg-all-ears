@@ -1,0 +1,13 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+a8e06698-9ea1-481e-ca7a-14fbfc6d4a63 ULANComm // SRC=ULANHID.cpp MJ= MN=
+#typev  ULANHID_cpp42 11 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanHID::`scalar deleting destructor'
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Destructor', ItemWString -- 11
+}
+#typev  ULANHID_cpp32 10 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanHID::CUlanHID
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Constructor', ItemWString -- 11
+}

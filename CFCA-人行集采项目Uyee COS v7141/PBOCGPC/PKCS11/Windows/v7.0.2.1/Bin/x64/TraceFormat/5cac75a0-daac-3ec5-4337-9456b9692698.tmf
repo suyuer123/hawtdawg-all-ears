@@ -1,0 +1,83 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+5cac75a0-daac-3ec5-4337-9456b9692698 UyeePKCS11 // SRC=SessionManager.cpp MJ= MN=
+#typev  SessionManager_cpp71 12 "%0*pulSessionHandleID is %10!ld!" //   LEVEL=INFO FUNC=ConstructSessionHandleID
+{
+*pulSessionHandleID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  SessionManager_cpp62 11 "%0ulSessionID %10!ld!" //   LEVEL=INFO FUNC=ConstructSessionHandleID
+{
+ulSessionID, ItemLong -- 10
+}
+#typev  SessionManager_cpp61 10 "%0ulSlotID %10!ld!" //   LEVEL=INFO FUNC=ConstructSessionHandleID
+{
+ulSlotID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  SessionManager_cpp198 18 "%0ulSlotID > 0xFFFF or <= 0" //   LEVEL=INFO FUNC=SessionManager::IsSessionHandleExistBySlot
+{
+}
+#typev  SessionManager_cpp195 17 "%0ulSlotID is %10!ld!" //   LEVEL=INFO FUNC=SessionManager::IsSessionHandleExistBySlot
+{
+ulSlotID, ItemLong -- 10
+}
+#typev  SessionManager_cpp169 16 "%0(*iter)->m_ulSlotID is %10!ld!" //   LEVEL=INFO FUNC=SessionManager::IsSessionHandleExist
+{
+(*iter)->m_ulSlotID, ItemLong -- 10
+}
+#typev  SessionManager_cpp165 15 "%0ulSessionHandleID is %10!ld!, ulSlotID is %11!ld!, ulSessionID is %12!ld!" //   LEVEL=INFO FUNC=SessionManager::IsSessionHandleExist
+{
+ulSessionHandleID, ItemLong -- 10
+ulSlotID, ItemLong -- 11
+ulSessionID, ItemLong -- 12
+}
+#typev  SessionManager_cpp161 14 "%0GetSlotAndSessionFromSessionHandleID failed" //   LEVEL=INFO FUNC=SessionManager::IsSessionHandleExist
+{
+}
+#typev  SessionManager_cpp154 13 "%0m_vtrSessionHandleSet.size is 0" //   LEVEL=INFO FUNC=SessionManager::IsSessionHandleExist
+{
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  SessionManager_cpp511 26 "%0ulSlotID is %10!ld!" //   LEVEL=INFO FUNC=SessionManager::CloseAllSession
+{
+ulSlotID, ItemLong -- 10
+}
+#typev  SessionManager_cpp487 25 "%0ulSessionCount is %10!d!" //   LEVEL=INFO FUNC=SessionManager::GetSessionCount
+{
+ulSessionCount, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  SessionManager_cpp474 24 "%0ulSlotID is %10!08X!, ulSessionFlags is %11!08X!" //   LEVEL=INFO FUNC=SessionManager::GetSessionCount
+{
+ulSlotID, ItemLong -- 10
+ulSessionFlags, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  SessionManager_cpp348 22 "%0ulSessionHandleID is %10!ld!(2)" //   LEVEL=INFO FUNC=SessionManager::GetPINInfo
+{
+ulSessionHandleID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  SessionManager_cpp372 23 "%0ulSlotID is %10!ld!" //   LEVEL=INFO FUNC=SessionManager::CreateSession
+{
+ulSlotID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  SessionManager_cpp272 19 "%0ulSessionHandleID is %10!ld!(2)" //   LEVEL=INFO FUNC=SessionManager::Login
+{
+ulSessionHandleID, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+#typev  SessionManager_cpp311 20 "%0ulSessionHandleID is %10!ld!(2)" //   LEVEL=INFO FUNC=SessionManager::ChangePIN
+{
+ulSessionHandleID, ItemLong -- 10
+}

@@ -1,0 +1,7 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+7872a5b8-1eca-3242-c152-8d97d57adac6 UyeePKCS11 // SRC=Misc.cpp MJ= MN=
+#typev  Misc_cpp187 14 "%0Image data size: %10!u!" //   LEVEL=INFO FUNC=LoadImageFromData
+{
+dwImageDataSize, ItemLong -- 10
+}

@@ -1,0 +1,9 @@
+\\192.168.117.2\Release\UyeeKey\CFIST\COS\IS32U512A\v7.1.4.1\测试报告
+
+注意：如果需要看对应哪个芯片，可以看生产工具里面COS下载目录下面ProConf.ini文件下面的
+
+;芯片供应商VID&PID
+DeviceVIDPID=vid_1677&pid_8311
+这个id号对应IS32U512A芯片
+
+通常只有AS569，IS32U512A芯片，IS32U-HID很少

@@ -1,0 +1,66 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+701a9220-99a0-e79c-e804-8c638f43d237 UyeePKCS11 // SRC=SessionHandle.cpp MJ= MN=
+#typev  SessionHandle_cpp2039 19 "%0pMechanism->mechanism is 0x%10!08X!" //   LEVEL=INFO FUNC=SessionHandle::DigestInit
+{
+pMechanism->mechanism, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp1857 18 "%0ulObjectType is %10!u!, ulObjectSpec is %11!u!" //   LEVEL=INFO FUNC=SessionHandle::VerifyInit
+{
+ulObjectType, ItemLong -- 10
+ulObjectSpec, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp1509 13 "%0ulObjectType is %10!u!, ulObjectSpec is %11!u!" //   LEVEL=INFO FUNC=SessionHandle::SignInit
+{
+ulObjectType, ItemLong -- 10
+ulObjectSpec, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp1502 12 "%0SignInit ulSessionID is %10!08x!, hKey is %11!08x!" //   LEVEL=INFO FUNC=SessionHandle::SignInit
+{
+ulSessionID, ItemLong -- 10
+hKey, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp470 10 "%0pTemplate[ulTempCount].type is 0x%10!08X!" //   LEVEL=INFO FUNC=SessionHandle::FindObjectInit
+{
+pTemplate[ulTempCount].type, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp1774 17 "%0ulObjectType is %10!u!, ulObjectSpec is %11!u!" //   LEVEL=INFO FUNC=SessionHandle::SignFinal
+{
+ulObjectType, ItemLong -- 10
+ulObjectSpec, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp1676 16 "%0dwSignatureSize is %10!d!" //   LEVEL=INFO FUNC=SessionHandle::Sign
+{
+dwSignatureSize, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp1639 15 "%0ulObjectType is %10!u!, ulObjectSpec is %11!u!" //   LEVEL=INFO FUNC=SessionHandle::Sign
+{
+ulObjectType, ItemLong -- 10
+ulObjectSpec, ItemLong -- 11
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp1628 14 "%0ulDataLen is %10!d!" //   LEVEL=INFO FUNC=SessionHandle::Sign
+{
+ulDataLen, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x86\Release\UyeePKCS11.PBOCGPC.x86.dll
+// PDB:  Last Updated :2023-3-20:2:29:41:74 (UTC) [tracepdb]
+#typev  SessionHandle_cpp1263 11 "%0Return value of Decode_SM2Cipher: 0x%10!08x!" //   LEVEL=INFO FUNC=SessionHandle::Decrypt
+{
+hResult, ItemLong -- 10
+}

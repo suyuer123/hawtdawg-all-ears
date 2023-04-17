@@ -1,0 +1,9 @@
+// PDB:  D:\agent\_work\669\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeePKCS11\x64\Release\UyeePKCS11.PBOCGPC.x64.dll
+// PDB:  Last Updated :2023-3-20:2:27:7:415 (UTC) [tracepdb]
+3de34c4a-2976-570c-cabe-8eb316eb1f9a UyeePKCS11 // SRC=dllmain.cpp MJ= MN=
+#typev  dllmain_cpp32 11 "%0PROCESS DETACH" //   LEVEL=INFO FUNC=DllMain
+{
+}
+#typev  dllmain_cpp17 10 "%0PROCESS ATTACH" //   LEVEL=INFO FUNC=DllMain
+{
+}

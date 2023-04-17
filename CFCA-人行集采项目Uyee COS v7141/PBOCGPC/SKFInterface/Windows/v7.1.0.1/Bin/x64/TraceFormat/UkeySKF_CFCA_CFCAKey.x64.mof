@@ -1,0 +1,44 @@
+#pragma autorecover
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+//
+// WPP Generated File
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+//
+
+//ModuleName = UkeySKF_CFCA_CFCAKey.x64Toolkits	 (Init called in Function DllMain)
+[Dynamic,
+ Description("UkeySKF_CFCA_CFCAKey.x64_Toolkits"),
+ guid("{5C8F2A58-369A-44f0-9235-C05ECB1DD73E}"),
+ locale("MS\\0x409")]
+class UkeySKF_CFCA_CFCAKey.x64Toolkits : EventTrace
+{
+    [Description ("Enable Flags") : amended,
+        ValueDescriptions{
+             "FATAL Flag",
+             "ERR Flag",
+             "WARNING Flag",
+             "INFO Flag",
+             "VERBOSE Flag"},
+        DefineValues{
+             "FATAL",
+             "ERR",
+             "WARNING",
+             "INFO",
+             "VERBOSE"},
+        Values{
+             "FATAL",
+             "ERR",
+             "WARNING",
+             "INFO",
+             "VERBOSE"},
+        ValueMap{
+             "0x00000001",
+             "0x00000002",
+             "0x00000004",
+             "0x00000008",
+             "0x00000010"}: amended
+    ]
+    uint32 Flags;
+};

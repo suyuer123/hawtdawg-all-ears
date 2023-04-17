@@ -1,0 +1,9 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+6154aa94-470a-b256-c595-6d48087636f1 ULANCore // SRC=HashHandle.cpp MJ= MN=
+#typev  HashHandle_cpp39 11 "%0Hash_Final(m_pHashCtx2nd)" //   LEVEL=INFO FUNC=CHashObject::~CHashObject
+{
+}
+#typev  HashHandle_cpp33 10 "%0Hash_Final(m_pHashCtx)" //   LEVEL=INFO FUNC=CHashObject::~CHashObject
+{
+}

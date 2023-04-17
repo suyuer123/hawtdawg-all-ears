@@ -1,0 +1,26 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+e201dc5c-e0e0-1884-7367-c97359cdda38 UtapSKF // SRC=DeviceObject.cpp MJ= MN=
+#typev  DeviceObject_cpp579 13 "%0%10!s! - AlgHashCap=0x%11!08X!" //   LEVEL=VERBOSE FUNC=CDeviceObject::GetDeviceInfo
+{
+__FUNCTION__, ItemString -- 10
+stDevInfo.AlgHashCap, ItemLong -- 11
+}
+#typev  DeviceObject_cpp577 12 "%0%10!s! - AlgAsymCap=0x%11!08X!" //   LEVEL=VERBOSE FUNC=CDeviceObject::GetDeviceInfo
+{
+__FUNCTION__, ItemString -- 10
+stDevInfo.AlgAsymCap, ItemLong -- 11
+}
+#typev  DeviceObject_cpp575 11 "%0%10!s! - AlgSymCap=0x%11!08X!" //   LEVEL=VERBOSE FUNC=CDeviceObject::GetDeviceInfo
+{
+__FUNCTION__, ItemString -- 10
+stDevInfo.AlgSymCap, ItemLong -- 11
+}
+#typev  DeviceObject_cpp571 10 "%0%10!s! - HWVersion=0x%11!02X!%12!02X!, FirmwareVersion=0x%13!02X!%14!02X!" //   LEVEL=VERBOSE FUNC=CDeviceObject::GetDeviceInfo
+{
+__FUNCTION__, ItemString -- 10
+stDevInfo.HWVersion.major, ItemLong -- 11
+stDevInfo.HWVersion.minor, ItemLong -- 12
+stDevInfo.FirmwareVersion.major, ItemLong -- 13
+stDevInfo.FirmwareVersion.minor, ItemLong -- 14
+}

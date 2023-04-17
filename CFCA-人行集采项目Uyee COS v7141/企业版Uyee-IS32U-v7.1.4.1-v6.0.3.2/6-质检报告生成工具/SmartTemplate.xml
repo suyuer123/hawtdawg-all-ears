@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document font="./MicrosoftYaHei.ttf">
+  <home width="842" height="595">
+        <logo name="CFCA" x="50" y="530" zoom="1"/>
+        <text y="356" align="center" fontsize="26">Uyee产品质检表</text>
+        <textpair x="330" y="292" fontsize="12" height="24" space="3">
+            <item>
+                <key>制表时间：</key>
+                <value></value>
+            </item>
+            <item>
+                <key>产品总数：</key>
+                <value></value>
+            </item>
+            <item>
+                <key>质检人员：</key>
+                <value></value>
+            </item>
+        </textpair>
+    </home>
+    <page width="842" height="595">
+        <text y="480" align="center" fontsize="18">Uyee产品质检项目</text>
+        <table x="93" y="442" cellpadding="50" border="0.5" color="#999999">
+            <thead fontsize="10" bgcolor="#E6E6E6">
+                <tr height="0">
+                    <th width="143" align="left" valign="middle"></th>
+                    <th width="512" align="left" valign="middle"></th>
+                </tr>
+            </thead>
+
+            <tbody fontsize="10">
+                <tr height="24">
+                    <td align="left" valign="middle">设备标识</td> 
+                    <td align="left" valign="middle">Key ID</td>
+                </tr>
+                <tr height="24">
+                    <td align="left" valign="middle">硬件标识</td>
+                    <td align="left" valign="middle">安全芯片序列号</td>
+                </tr>
+                <tr height="24">
+                    <td align="left" valign="middle">COS描述</td>
+                    <td align="left" valign="middle">PBOCGPC</td>
+                </tr>
+                <tr height="24">
+                    <td align="left" valign="middle">版本号</td>
+                    <td align="left" valign="middle">7141</td>
+                </tr>
+                <tr height="24">
+                    <td align="left" valign="middle">PID</td>
+                    <td align="left" valign="middle">F412</td>
+                </tr>
+                <tr height="24">
+                    <td align="left" valign="middle">按键</td>
+                    <td align="left" valign="middle">不检测</td>
+                </tr>
+                <tr height="24">
+                    <td align="left" valign="middle">算法</td>
+                    <td align="left" valign="middle">检测</td>
+                </tr>
+                <tr height="24">
+                    <td align="left" valign="middle">配置文件</td>
+                    <td align="left" valign="middle">F41200000000B41B0200000000000000</td>
+                </tr>
+                <tr height="24">
+                    <td align="left" valign="middle">ISO镜像</td>
+                    <td align="left" valign="middle">F050FD07480980D28EB585BAD183C784A45CBC79</td>
+                </tr>
+            </tbody>
+        </table>
+    </page>
+    <data width="842" height="595">
+        <text y="525" align="center" fontsize="14">Uyee产品质检表</text>
+        <table x="63" y="490" cellpadding="5" border="0.5" color="#999999">
+            <thead fontsize="9" bgcolor="#E6E6E6">
+                <tr height="22">
+                    <th width="103" align="center" valign="middle">Key ID</th>
+                    <th width="56"  align="center" valign="middle">COS描述</th>
+                    <th width="56"  align="center" valign="middle">版本号</th>
+                    <th width="56"  align="center" valign="middle">PID</th>
+                    <th width="56"  align="center" valign="middle">按键</th><!-- Ulan:USB接口, Utap:按键 -->
+                    <th width="56"  align="center" valign="middle">算法</th><!-- Ulan:蓝牙接口, Utap:算法 -->
+                    <th width="85"  align="center" valign="middle">配置文件一致性</th>
+                    <th width="68"  align="center" valign="middle">ISO一致性</th>
+                    <th width="179" align="center" valign="middle">安全芯片序列号</th>
+                </tr>
+            </thead>
+            <tbody fontsize="8">
+                <!--
+                <tr height="20">
+                    <td align="center" valign="middle">CFCA201701040001</td>
+                    <td align="center" valign="middle">BSFG3</td>
+                    <td align="center" valign="middle">03030201</td>
+                    <td align="center" valign="middle">F207</td>
+                    <td align="center" valign="middle">通过</td>
+                    <td align="center" valign="middle">通过</td>
+                    <td align="center" valign="middle">一致</td>
+                    <td align="center" valign="middle">一致</td>
+                    <td align="center" valign="middle">F2070178003C050F05FF000000000000</td>
+                </tr>
+                -->
+            </tbody>
+        </table>
+    </data>
+</document>

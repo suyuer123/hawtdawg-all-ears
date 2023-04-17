@@ -1,0 +1,37 @@
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+3419986b-4248-fe2b-5533-9b93fd4aed63 ULANComm // SRC=ULANCCID.cpp MJ= MN=
+#typev  ULANCCID_cpp165 14 "%0SCardReleaseContext return %10!#x!" //   LEVEL=INFO FUNC=CUlanCCID::ULanReopenDevice
+{
+hResult, ItemLong -- 10
+}
+#typev  ULANCCID_cpp162 13 "%0SCardDisconnect return %10!#x!" //   LEVEL=INFO FUNC=CUlanCCID::ULanReopenDevice
+{
+hResult, ItemLong -- 10
+}
+#typev  ULANCCID_cpp158 12 "%0Release current device handle first" //   LEVEL=INFO FUNC=CUlanCCID::ULanReopenDevice
+{
+}
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+#typev  ULANCCID_cpp59 11 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanCCID::~CUlanCCID
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Destructor', ItemWString -- 11
+}
+#typev  ULANCCID_cpp48 10 "%0Trace function: (%10!s! - %11!s!)" //   LEVEL=INFO FUNC=CUlanCCID::CUlanCCID
+{
+__FUNCTIONW__, ItemWString -- 10
+L'Constructor', ItemWString -- 11
+}
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+#typev  ULANCCID_cpp376 16 "%0SCardTransmit(DATA) return %10!#x!. Call ULanReopenDevice" //   LEVEL=INFO FUNC=CUlanCCID::UlanTransmit
+{
+hResult, ItemLong -- 10
+}
+// PDB:  D:\agent\_work\670\s\SmartCard\Private\Src\Uyee\CustomEdition\PBOCGPC\UyeeSKF\x64\Release\UkeySKF_CFCA_CFCAKey.x64.dll
+// PDB:  Last Updated :2023-3-20:8:56:24:457 (UTC) [tracepdb]
+#typev  ULANCCID_cpp282 15 "%0m_hDevHandle is NULL. ULanReopenDevice" //   LEVEL=INFO FUNC=CUlanCCID::ULanSendCommand
+{
+}
