@@ -1,0 +1,330 @@
+1.安装虚拟机
+2.dbeaver熟悉
+3.了解db接口
+4.了解网卡
+
+5.了解war包
+
+6.mysql约束
+https://www.cnblogs.com/lizecheng/p/14655900.html
+
+7.子网掩码
+
+8.内外网同时连接
+route add 0.0.0.0 mask 0.0.0.0 192.168.115.254
+route add 172.17.0.0 mask 255.255.0.0 192.168.115.254
+route add 192.168.0.0 mask 255.255.0.0 192.168.115.254
+route delete 0.0.0.0 mask 0.0.0.0 192.168.115.254
+
+
+
+
+9. The remote SSH server rejected X11 forwarding request.
+https://www.ibm.com/support/pages/x11-forwarding-ssh-connection-rejected-because-wrong-authentication
+10.x11转发
+https://blog.csdn.net/fox_wayen/article/details/91409398
+
+11.分库分表
+https://zhuanlan.zhihu.com/p/375951738
+https://blog.csdn.net/JavaMonsterr/article/details/125225069
+https://www.cnblogs.com/songgj/p/14246471.html
+https://www.infoq.cn/article/key-steps-and-likely-problems-of-split-table
+
+
+12.asn.1编码
+https://zhuanlan.zhihu.com/p/156898176
+https://www.zhihu.com/question/346436873
+https://www.jianshu.com/p/f97d72d52d4f
+
+13.射频识别（RFID）是 Radio Frequency Identification（NFC相关）
+https://baijiahao.baidu.com/s?id=1667732064824970476&wfr=spider&for=pc
+
+14.ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) 
+
+15.APDU
+https://blog.csdn.net/wwt18811707971/article/details/85785354/
+
+16.cos
+https://baike.baidu.com/item/COS/8028122?fr=aladdin
+
+17.GPL GNU General Public License，通用公共许可证
+https://mp.weixin.qq.com/s?__biz=MzI5Nzc5MTI3MQ==&mid=2247518901&idx=1&sn=a262e1cb64bbe68d8cfbd6e14fecfcc2&chksm=ecad70fddbdaf9eb9876df70d14d7ec51e095c36c482a402a3483ed6a928d1a431cfeb18aaad&scene=27
+
+18.LDAP DN
+https://www.cnblogs.com/wilburxu/p/9174353.html
+https://baike.baidu.com/item/%E8%BD%BB%E5%9E%8B%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E5%8D%8F%E8%AE%AE/10493115?fromtitle=LDAP&fromid=2875565&fr=aladdin
+https://www.cnblogs.com/aomi/p/5659876.html
+https://blog.csdn.net/weixin_34138056/article/details/85968076
+https://blog.csdn.net/huyuchengus/article/details/108875777?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-108875777-blog-6561558.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-108875777-blog-6561558.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=1
+https://blog.csdn.net/huxin1/article/details/6561558?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-6561558-blog-85968076.pc_relevant_3mothn_strategy_and_data_recovery&spm=1001.2101.3001.4242.2&utm_relevant_index=4
+
+19.X.509（证书格式）
+https://blog.csdn.net/moonpure/article/details/84068647
+https://baike.baidu.com/item/X.509/2817050?fr=aladdin
+
+20.base64
+https://zhuanlan.zhihu.com/p/76666060
+
+
+21.更新网卡
+https://weibo.com/ttarticle/p/show?id=2309404519025777443268
+
+22.数字时间戳（digital time-stamp） DTS
+    数字时间戳服务（DTS：digital time-stamp service）
+https://baike.baidu.com/item/%E6%95%B0%E5%AD%97%E6%97%B6%E9%97%B4%E6%88%B3/11056435
+
+
+23.证书CN
+https://blog.csdn.net/cunjiu9486/article/details/109076803
+https://www.poftut.com/what-is-ssl-certificate-cn-common-name-and-usage/
+
+24.X509
+https://blog.csdn.net/starboybenben/article/details/48244763?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167936410716800186597424%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167936410716800186597424&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-48244763-null-null.142^v74^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=X.509%E8%A7%84%E8%8C%83&spm=1018.2226.3001.4187
+
+25.X509_SIG  该结构用来存放摘要或者签名值
+https://www.openssl.net.cn/docs/158.html
+
+
+
+26.https,ssl,openssl
+https://www.tutorialsteacher.com/https/how-ssl-works
+
+27.What is OpenSSL and how it works?
+https://cn.bing.com/search?q=What%20is%20OpenSSL%20and%20how%20it%20works%3F
+
+OpenSSL is a software library for applications that provide secure communications 
+over computer networks against eavesdropping or need to identify the party at the other end. 
+It is widely used by Internet servers, including the majority of HTTPS websites.
+
+
+28.openssl中文手册
+https://www.openssl.net.cn/
+
+29.PKCS#7
+https://blog.csdn.net/u013066292/article/details/78721860?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-5-78721860-blog-52400223.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-5-78721860-blog-52400223.pc_relevant_default&utm_relevant_index=10
+http://www.pkiglobe.org/pkcs7.html
+
+30.pkiglobe
+http://www.pkiglobe.org
+
+31.https://www.tutorialsteacher.com/
+
+32.A Warm Welcome to ASN.1 and DER
+https://letsencrypt.org/docs/a-warm-welcome-to-asn1-and-der/
+
+33.C语言，字符串总是以‘\0‘作为结尾
+https://blog.csdn.net/sinat_16643223/article/details/120379267
+http://c.biancheng.net/c/ascii/
+https://www.asciitable.com/
+
+34.OCTET 字符串（似乎和ASN.1有关）
+https://learn.microsoft.com/zh-cn/windows/win32/seccertenroll/about-octet-string
+https://www.cnblogs.com/HappyEDay/p/5504377.html
+
+35.填充模式
+https://ithelp.ithome.com.tw/articles/10250386
+https://blog.csdn.net/weixin_42272869/article/details/124282901
+
+
+36.RSA填充
+https://blog.csdn.net/makenothing/article/details/88429511
+https://www.jianshu.com/p/0fc6631500e3
+https://www.rfc-editor.org/rfc/rfc2313
+
+37.RSA算法原理
+https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html
+https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html
+
+
+38.双证书
+https://blog.csdn.net/qingzhuyuxian/article/details/120904372
+
+39.填充，为啥当为整数倍时，还是要多增加8个0x08？因为解密的需要。
+https://www.cnblogs.com/cyds/p/15640763.html
+
+
+40.TLS
+https://www.internetsociety.org/deploy360/tls/basics/
+
+41.PSS填充 (Probabilistic Signature Scheme，概率签名方案)
+https://blog.csdn.net/weixin_45264425/article/details/128961821
+https://juejin.cn/post/6844903776566902791
+https://www.encryptionconsulting.com/overview-of-rsassa-pss/
+
+42.掩码生成函数 MGF Mask Generation Function
+https://blog.csdn.net/guyongqiangx/article/details/120932241
+
+43.密码学基础1：RSA算法原理全面解析
+https://www.jianshu.com/p/6aa7b59be872
+
+44.密码学基础3：密钥文件格式完全解析
+https://www.jianshu.com/p/ce7ab5f3f33a
+
+45.密码学基础2：椭圆曲线密码学原理分析
+https://www.jianshu.com/p/3b810faff3ba
+
+46.对称加密和非对称加密
+https://www.zhihu.com/column/c_1446239480876929024
+https://www.zhihu.com/question/33645891/answer/192604856
+
+47.DES加解密（解密同样对秘钥做异或运算，因为异或的性质，再次异或还原到之前的样子）
+https://blog.csdn.net/YM_1111/article/details/121003469
+https://blog.csdn.net/LuckyDog0623/article/details/114708710
+
+48.密码学-分组加密模式
+https://juejin.cn/post/6857763242225270798
+
+49.流密码和块密码
+https://zhuanlan.zhihu.com/p/193943223
+
+50.【完整版-斯坦福-密码学】全13讲
+https://www.bilibili.com/video/BV1Ht411w7Re/
+
+51.RC4加密算法
+https://zhuanlan.zhihu.com/p/25997627
+https://blog.csdn.net/qq_40442137/article/details/128544176?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-2-128544176-blog-37599161.pc_relevant_default_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-2-128544176-blog-37599161.pc_relevant_default_base1&utm_relevant_index=5
+https://blog.csdn.net/xiao__1bai/article/details/123357156?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-123357156-blog-128544176.pc_relevant_default_base1&spm=1001.2101.3001.4242.1&utm_relevant_index=2
+
+
+52.AES 
+《A Stick Figure Guide to the Advanced Encryption Standard(AES)》 Moserware
+https://blog.csdn.net/maxmacn/article/details/109661014
+http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html
+https://blog.csdn.net/maxmacn/article/details/109661014
+
+53.注册表，cos的注册表，查一下注册表的路径，以及注册表是干嘛的
+
+54.信任站点
+https://www.xitongzhijia.net/xtjc/20221209/268659.html
+
+https://zhidao.baidu.com/question/305165288.html#:~:text=%E4%BB%80%E4%B9%88%E6%98%AF%E5%8F%97%E4%BF%A1%E4%BB%BB%E7%AB%99%E7%82%B9%3F%201%20%E6%9F%90%E4%BA%9B%E7%BD%91%E7%AB%99%E4%BC%9A%E8%AE%BE%E7%BD%AE%E6%88%90%E4%BD%A0%E5%BF%85%E9%A1%BB%E5%B0%86%E5%AE%83%E5%8A%A0%E5%85%A5%E5%8F%97%E4%BF%A1%E4%BB%BB%E7%9A%84%E7%AB%99%E7%82%B9%E6%89%8D%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E5%AE%83%E7%9A%84%E6%9F%90%E4%BA%9B%E5%8A%9F%E8%83%BD%EF%BC%8C%E6%89%80%E4%BB%A5%E5%8F%97%E4%BF%A1%E4%BB%BB%E7%9A%84%E7%AB%99%E7%82%B9%E5%B0%B1%E6%98%AF%E8%AF%B4%E5%AE%89%E5%85%A8%E5%BA%A6%E6%AF%94%E8%BE%83%E9%AB%98%E3%80%82%202,%E5%9C%A8IE%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E5%85%B7%E2%80%94%E2%80%94Internet%E9%80%89%E9%A1%B9%E2%80%94%E2%80%94%E5%AE%89%E5%85%A8%EF%BC%8C%E5%8F%AA%E8%A6%81%E5%B0%86%E4%BF%A1%E4%BB%BB%E7%9A%84%E7%BD%91%E5%9D%80%E6%B7%BB%E5%8A%A0%E5%88%B0%E8%BF%99%E9%87%8C%EF%BC%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B0%B1%E5%8F%AF%E4%BB%A5%E8%A7%A3%E9%99%A4%E5%AF%B9%E7%BD%91%E7%AB%99%E7%9A%84%E4%BB%BB%E4%BD%95%E9%99%90%E5%88%B6%EF%BC%8C%E5%9C%A8%E8%AE%BE%E7%BD%AE%E6%AD%A4%E5%8A%9F%E8%83%BD%E6%98%AF%E8%AF%B7%E4%B8%80%E5%AE%9A%E6%85%8E%E9%87%8D%EF%BC%8C%E7%A1%AE%E4%BF%9D%E7%BD%91%E5%9D%80%E5%8F%AF%E4%BF%A1%E3%80%82%203%20%E6%B7%BB%E5%8A%A0%E5%8F%97%E4%BF%A1%E4%BB%BB%E7%82%B9%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%9C%A8IE%E8%8F%9C%E5%8D%95%E4%B8%AD%E9%80%89%E6%8B%A9%E5%B7%A5%E5%85%B7%E9%87%8C%E9%9D%A2%E7%9A%84Internet%E9%80%89%E9%A1%B9%E3%80%82%20%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E5%9C%A8%E5%BC%B9%E5%87%BA%E7%9A%84Internet%E9%80%89%E9%A1%B9%E5%8D%A1%E4%B8%AD%EF%BC%8C%E9%80%89%E6%8B%A9%E5%AE%89%E5%85%A8%E6%A0%87%E7%AD%BE%EF%BC%9A%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E5%9C%A8%E5%AE%89%E5%85%A8%E6%A0%87%E7%AD%BE%E4%B8%AD%E9%80%89%E6%8B%A9%E5%8F%97%E4%BF%A1%E4%BB%BB%E7%9A%84%E7%AB%99%E7%82%B9%EF%BC%8C%E7%84%B6%E5%90%8E%E7%82%B9%E5%87%BB%E7%AB%99%E7%82%B9%E3%80%82%20%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E5%9C%A8%E5%BC%B9%E5%87%BA%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86%E4%B8%AD%E8%BE%93%E5%85%A5%E6%95%99%E7%A0%94%E5%A4%87%E8%AF%BE%E5%B9%B3%E5%8F%B0%E5%9F%9F%E5%90%8D%E3%80%82
+
+https://zhidao.baidu.com/question/329708200.html
+
+55.COM插件
+
+56.插网卡和不插网卡的ip地址有什么区别？
+
+57.Unable to install Edge extensions. Could not unzip extension
+https://github.com/sandboxie-plus/Sandboxie/issues/2713
+
+58.看一下计算机网络关于ip地址和网卡那一块
+
+59.如何在edge浏览器安装chrome扩展
+
+60.正则表达
+https://zhuanlan.zhihu.com/p/138866480
+
+61.ActiveX控件，NPAPI（这些网站可能不够好用，具体看的时候根据需要重新找）
+https://baike.baidu.com/item/ActiveX%E6%8E%A7%E4%BB%B6/3350733
+https://blog.csdn.net/wwwsq/article/details/8254911
+https://blog.csdn.net/weixin_39557797/article/details/114884800?spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10-114884800-blog-8254911.235%5Ev27%5Epc_relevant_default_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10-114884800-blog-8254911.235%5Ev27%5Epc_relevant_default_base1&utm_relevant_index=13
+
+62.计算md5哈希值（上海农商行村镇银行的控件软件）
+在exe文件路径下执行   certutil -hashfile SecEditCtlHost.Extension.SRCBCZ.exe MD5
+
+
+63.VirusTotal (VT)  病毒扫描工具
+https://baike.baidu.com/item/VirusTotal/5520170
+
+
+64. <object>,<param>,javascript
+使用Object标签引入第三方控件
+https://www.cnblogs.com/lsnproj/archive/2012/02/16/2354791.html
+
+JS调用OCX控件过程
+OCX 打包 CAB 与 JS 调用具体教程 
+https://www.cnblogs.com/yfceshi/p/7117419.html
+
+65.注册表
+
+66.base64、utf-8、二进制有什么关系？
+https://zhuanlan.zhihu.com/p/476477271
+
+67.base64转二进制工具
+https://conv.darkbyte.ru/
+notepad 里面有一个插件  Nppcrypt 可以用来解码base64格式
+
+
+68.有时间看一下notepad能实现的base64转为二进制功能，以及对比文件功能（compare）vscode能不能实现。
+
+69.Notepad++没有插件管理器(Plugin Manager)的解决方法
+https://blog.csdn.net/yerenyuan_pku/article/details/109672178
+https://blog.csdn.net/u011608384/article/details/120672398
+
+70.什么是dll？dll是什么文件？
+https://zhuanlan.zhihu.com/p/406236763
+
+71.钩子（开发中总是说的“钩子”是什么？）
+https://www.jianshu.com/p/60c9a09d1ac3
+https://blog.csdn.net/FourLeafCloverLLLS/article/details/89513701
+https://blog.csdn.net/sunstars2009918/article/details/39340449https://blog.csdn.net/theresnotomorrow/article/details/109721279?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-109721279-blog-39340449.235%5Ev27%5Epc_relevant_default_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-109721279-blog-39340449.235%5Ev27%5Epc_relevant_default_base1&utm_relevant_index=2
+
+72.钩子程序
+https://baike.baidu.com/item/%E9%92%A9%E5%AD%90%E7%A8%8B%E5%BA%8F/10772325#%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6
+
+73.javascript
+https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/A_first_splash
+大概看完javascript以后可以重新看看上海农商村镇银行的js脚本
+
+74.组件对象模型 COM
+https://baike.baidu.com/item/%E7%BB%84%E4%BB%B6%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B/3351546?fromModule=lemma_inlink
+COM组件
+https://baike.baidu.com/item/COM%E7%BB%84%E4%BB%B6/3351509
+
+75.Win10系统修改通过注册表修改网卡mac地址
+https://blog.csdn.net/wx_lanyu/article/details/84455332
+
+76.物理网卡与虚拟网卡的区分 characteristics 注册表
+https://www.cnblogs.com/mermaidLoft/p/5728372.html
+
+
+
+77.注册表
+https://www.cnblogs.com/sepmaple/articles/9401215.html
+
+https://zhuanlan.zhihu.com/p/46743264#:~:text=%E6%B3%A8%E5%86%8C%E8%A1%A8%E6%98%AFWindows%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E4%B8%80%E4%B8%AA%E6%A0%B8%E5%BF%83%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E5%85%B6%E4%B8%AD%E5%AD%98%E6%94%BE%E7%9D%80%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0%EF%BC%8C%E7%9B%B4%E6%8E%A5%E6%8E%A7%E5%88%B6%E7%9D%80Windows%E7%9A%84%E5%90%AF%E5%8A%A8%E3%80%81%E7%A1%AC%E4%BB%B6%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%A3%85%E8%BD%BD%E4%BB%A5%E5%8F%8A%E4%B8%80%E4%BA%9BWindows%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%BF%90%E8%A1%8C%EF%BC%8C%E4%BB%8E%E8%80%8C%E5%9C%A8%E6%95%B4%E4%B8%AA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E8%B5%B7%E7%9D%80%E6%A0%B8%E5%BF%83%E4%BD%9C%E7%94%A8%E3%80%82.%20%E8%BF%99%E4%BA%9B%E4%BD%9C%E7%94%A8%E5%8C%85%E6%8B%AC%E4%BA%86%E8%BD%AF%E3%80%81%E7%A1%AC%E4%BB%B6%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E5%92%8C%E7%8A%B6%E6%80%81%E4%BF%A1%E6%81%AF%EF%BC%8C%E6%AF%94%E5%A6%82%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E6%9C%89%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%92%8C%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E5%A4%96%E5%A3%B3%E7%9A%84%E5%88%9D%E5%A7%8B%E6%9D%A1%E4%BB%B6%E3%80%81%E9%A6%96%E9%80%89%E9%A1%B9%E5%92%8C%E5%8D%B8%E8%BD%BD%E6%95%B0%E6%8D%AE%E7%AD%89%EF%BC%8C%E8%81%94%E7%BD%91%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E6%95%B4%E4%B8%AA%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%90%84%E7%A7%8D%E8%AE%B8%E5%8F%AF%EF%BC%8C%E6%96%87%E4%BB%B6%E6%89%A9%E5%B1%95%E5%90%8D%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%85%B3%E8%81%94%EF%BC%8C%E7%A1%AC%E4%BB%B6%E9%83%A8%E4%BB%B6%E7%9A%84%E6%8F%8F%E8%BF%B0%E3%80%81%E7%8A%B6%E6%80%81%E5%92%8C%E5%B1%9E%E6%80%A7%EF%BC%8C%E6%80%A7%E8%83%BD%E8%AE%B0%E5%BD%95%E5%92%8C%E5%85%B6%E4%BB%96%E5%BA%95%E5%B1%82%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8A%B6%E6%80%81%E4%BF%A1%E6%81%AF%EF%BC%8C%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96%E6%95%B0%E6%8D%AE%E7%AD%89%E3%80%82.%20%E7%AE%80%E8%80%8C%E8%A8%80%E4%B9%8B%EF%BC%8C,%E6%B3%A8%E5%86%8C%E8%A1%A8%EF%BC%88Registry%EF%BC%89%20%E6%98%AFMicrosoft%20Windows%E4%B8%AD%E7%9A%84%E4%B8%80%E4%B8%AA%E9%87%8D%E8%A6%81%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E7%94%A8%E4%BA%8E%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F%E5%92%8C%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%AE%BE%E7%BD%AE%E4%BF%A1%E6%81%AF%E3%80%82.%20%E5%A6%82%E5%9B%BE%EF%BC%8C%E6%B3%A8%E5%86%8C%E8%A1%A8%E6%9C%895%E4%B8%AA%E6%A0%B9%E9%94%AE%EF%BC%88HKEY%EF%BC%89%EF%BC%9A.
+
+
+78.修改注册表HKEY_LOCAL_MACHINE
+SYSTEM\\CurrentControlSet\\Control\\Class\\{4D36E972-E325-11CE-BFC1-08002BE10318}\\，将Characteristics 修改为非0x84
+
+（这里是修改物理网卡与虚拟网卡的，至于物理网卡与虚拟网卡那个是0x84，需要用的时候具体查一下）
+
+79.PE系统（windows预装系统）
+https://www.zhihu.com/question/444043272#:~:text=PE%E6%8C%87%E4%B8%80%E4%B8%AA%E9%9D%9E%E5%B8%B8%E7%B2%BE%E7%AE%80%E7%9A%84%E7%B3%BB%E7%BB%9F%2C%E8%AF%A5%E7%B3%BB%E7%BB%9F%E5%8F%AF%E4%BB%A5%E6%94%BE%E5%9C%A8U%E7%9B%98%E4%BB%A5%E5%8F%8A%E5%B0%8F%E5%AE%B9%E9%87%8F%E7%9A%84%E7%A1%AC%E7%9B%98%E5%BD%93%E4%B8%AD%2C%E7%94%B5%E8%84%91%E5%8F%AF%E4%BB%A5%E4%BB%8E%E8%AF%A5%E7%A1%AC%E7%9B%98%E4%B8%AD%E5%90%AF%E5%8A%A8%2C%E7%94%A8%E6%9D%A5%E8%A3%85%E7%B3%BB%E7%BB%9F%E7%AD%89%E5%85%B6%E4%BB%96%E8%AE%BE%E7%BD%AE%2C%E7%94%B5%E8%84%91%E7%A1%AC%E7%9B%98%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%88%86%E5%8C%BA%2C%E7%99%BB%E5%BD%95%E5%AF%86%E7%A0%81%E7%9A%84%E7%A0%B4%E8%A7%A3%E6%95%B0%E6%8D%AE%E7%9A%84%E6%8B%B7%E8%B4%9D%2C%E9%83%BD%E6%98%AF%E5%8F%AF%E4%BB%A5%E7%9A%84%20%E5%8F%91%E5%B8%83%E4%BA%8E%202021-02-11,18%3A13%20%E8%B5%9E%E5%90%8C%202
+
+80.能否不用u盘重装系统
+https://www.zhihu.com/question/490529056
+
+81.关于127.0.0.1
+https://zhuanlan.zhihu.com/p/481549810
+https://juejin.cn/post/7013538093974323231
+
+82.ie阻止未签名的active插件
+https://zhidao.baidu.com/question/165587827.html
+
+
+
+问题：
+为什么连接时出现c符号，服务器拒绝forwarding request？
+内外网切换问题，看x11转发
+证书从服务器发送，为什么要安装，服务器发送的证书一直保存在电脑吗？
+服务器发送过来的证书需要手动安装吗
+通信证书？（ssl证书）
+个人身份认证证书怎么来的，从哪来到本地的？
+（申请，下载）
+
+
+先填充再分割吗？还是先分割再填充（RSA似乎是先分割再填充）？？？
+对称秘钥怎么生成的？？？AES
+应该和秘钥协商有关，之后了解一下。
+
+
+
+
+书籍：
+《信息安全原理与实践》 Mark Stamp(关于秘钥和加密)
+http权威指南
+servlets and jsp
+数据结构与算法分析
